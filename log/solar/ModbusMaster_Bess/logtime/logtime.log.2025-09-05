@@ -1,0 +1,490 @@
+[2025-09-05 15:31:15,173] [INFO] ess.py:86 - Config check passed
+[2025-09-05 15:31:15,173] [INFO] ess.py:90 - Redis connection established
+[2025-09-05 15:31:15,175] [INFO] ess.py:62 - process_1 started
+[2025-09-05 15:31:15,176] [INFO] distributor.py:121 - distributor started at 2025-09-05 15:31:15.176213
+
+[2025-09-05 15:31:15,176] [INFO] ess.py:62 - process_2 started
+[2025-09-05 15:31:15,177] [INFO] ess.py:70 - sucessfullly assigned jobs 
+[2025-09-05 15:31:15,177] [INFO] ess.py:74 - is_server_alive:None,is_ess_alive:None
+[2025-09-05 15:31:15,177] [INFO] distributor.py:121 - distributor started at 2025-09-05 15:31:15.177863
+
+[2025-09-05 15:31:15,186] [INFO] distributor.py:43 - 1 INVERTER_INVERTER_1
+[2025-09-05 15:31:15,187] [INFO] distributor.py:177 - 2025-09-05 15:31:15.187070 - INVERTER_1 started
+
+[2025-09-05 15:31:15,187] [INFO] distributor.py:194 - 2025-09-05 15:31:15.187319 - INVERTER_INVERTER_1 paused
+[2025-09-05 15:31:16,177] [INFO] ess.py:74 - is_server_alive:None,is_ess_alive:None
+[2025-09-05 15:31:16,187] [INFO] distributor.py:194 - 2025-09-05 15:31:16.187733 - INVERTER_INVERTER_1 paused
+[2025-09-05 15:31:17,178] [INFO] ess.py:74 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:31:17,188] [INFO] distributor.py:194 - 2025-09-05 15:31:17.188219 - INVERTER_INVERTER_1 paused
+[2025-09-05 15:31:18,179] [INFO] ess.py:74 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:31:18,188] [INFO] distributor.py:194 - 2025-09-05 15:31:18.188864 - INVERTER_INVERTER_1 paused
+[2025-09-05 15:31:19,179] [INFO] ess.py:74 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:31:19,189] [INFO] distributor.py:194 - 2025-09-05 15:31:19.189423 - INVERTER_INVERTER_1 paused
+[2025-09-05 15:31:20,180] [INFO] ess.py:74 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:31:20,190] [INFO] distributor.py:194 - 2025-09-05 15:31:20.190088 - INVERTER_INVERTER_1 paused
+[2025-09-05 15:31:21,180] [INFO] ess.py:74 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:31:21,190] [INFO] distributor.py:194 - 2025-09-05 15:31:21.190605 - INVERTER_INVERTER_1 paused
+[2025-09-05 15:31:22,181] [INFO] ess.py:74 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:31:22,191] [INFO] distributor.py:194 - 2025-09-05 15:31:22.191213 - INVERTER_INVERTER_1 paused
+[2025-09-05 15:31:23,181] [INFO] ess.py:74 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:31:23,192] [INFO] distributor.py:194 - 2025-09-05 15:31:23.192000 - INVERTER_INVERTER_1 paused
+[2025-09-05 15:32:48,994] [INFO] ess.py:86 - Config check passed
+[2025-09-05 15:32:48,994] [INFO] ess.py:90 - Redis connection established
+[2025-09-05 15:32:48,997] [INFO] ess.py:62 - process_1 started
+[2025-09-05 15:32:48,998] [INFO] distributor.py:121 - distributor started at 2025-09-05 15:32:48.998351
+
+[2025-09-05 15:32:49,000] [INFO] ess.py:62 - process_2 started
+[2025-09-05 15:32:49,000] [INFO] ess.py:70 - sucessfullly assigned jobs 
+[2025-09-05 15:32:49,000] [INFO] ess.py:74 - is_server_alive:None,is_ess_alive:None
+[2025-09-05 15:32:49,000] [INFO] distributor.py:121 - distributor started at 2025-09-05 15:32:49.000776
+
+[2025-09-05 15:32:49,008] [INFO] distributor.py:43 - 1 INVERTER_INVERTER_1
+[2025-09-05 15:32:49,008] [INFO] distributor.py:177 - 2025-09-05 15:32:49.008869 - INVERTER_1 started
+
+[2025-09-05 15:32:49,009] [INFO] distributor.py:194 - 2025-09-05 15:32:49.009066 - INVERTER_INVERTER_1 paused
+[2025-09-05 15:32:50,000] [INFO] ess.py:74 - is_server_alive:None,is_ess_alive:None
+[2025-09-05 15:32:50,009] [INFO] distributor.py:194 - 2025-09-05 15:32:50.009426 - INVERTER_INVERTER_1 paused
+[2025-09-05 15:32:51,001] [INFO] ess.py:74 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:32:51,035] [INFO] distributor.py:194 - 2025-09-05 15:32:51.035632 - INVERTER_INVERTER_1 paused
+[2025-09-05 15:32:52,002] [INFO] ess.py:74 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:32:52,036] [INFO] distributor.py:194 - 2025-09-05 15:32:52.036326 - INVERTER_INVERTER_1 paused
+[2025-09-05 15:32:53,002] [INFO] ess.py:74 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:32:53,037] [INFO] distributor.py:194 - 2025-09-05 15:32:53.037059 - INVERTER_INVERTER_1 paused
+[2025-09-05 15:43:02,856] [INFO] ess.py:88 - Config check passed
+[2025-09-05 15:43:02,856] [INFO] ess.py:92 - Redis connection established
+[2025-09-05 15:43:57,023] [INFO] ess.py:88 - Config check passed
+[2025-09-05 15:43:57,023] [INFO] ess.py:92 - Redis connection established
+[2025-09-05 15:44:18,380] [INFO] ess.py:88 - Config check passed
+[2025-09-05 15:44:18,380] [INFO] ess.py:92 - Redis connection established
+[2025-09-05 15:44:18,380] [INFO] ess.py:71 - sucessfullly assigned jobs 
+[2025-09-05 15:44:33,286] [INFO] ess.py:88 - Config check passed
+[2025-09-05 15:44:33,286] [INFO] ess.py:92 - Redis connection established
+[2025-09-05 15:44:33,287] [INFO] ess.py:71 - sucessfullly assigned jobs 
+[2025-09-05 15:44:33,287] [INFO] ess.py:75 - is_server_alive:None,is_ess_alive:None
+[2025-09-05 15:44:34,288] [INFO] ess.py:75 - is_server_alive:None,is_ess_alive:None
+[2025-09-05 15:44:35,288] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:44:36,289] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:44:37,289] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:45:03,065] [INFO] ess.py:88 - Config check passed
+[2025-09-05 15:45:03,065] [INFO] ess.py:92 - Redis connection established
+[2025-09-05 15:45:03,066] [INFO] ess.py:71 - sucessfullly assigned jobs 
+[2025-09-05 15:45:03,066] [INFO] ess.py:75 - is_server_alive:None,is_ess_alive:None
+[2025-09-05 15:45:04,066] [INFO] ess.py:75 - is_server_alive:None,is_ess_alive:None
+[2025-09-05 15:45:05,066] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:45:06,067] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:45:07,067] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:45:08,068] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:45:09,068] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:45:10,068] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:45:11,069] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:45:12,069] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:45:13,070] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:45:14,070] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:45:15,070] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:45:16,071] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:45:17,071] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:45:18,072] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:45:19,072] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:45:20,073] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:45:21,073] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:45:22,074] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:45:23,074] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:45:24,074] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:45:25,075] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:46:30,211] [INFO] ess.py:88 - Config check passed
+[2025-09-05 15:46:30,211] [INFO] ess.py:92 - Redis connection established
+[2025-09-05 15:46:30,211] [INFO] ess.py:71 - sucessfullly assigned jobs 
+[2025-09-05 15:46:30,211] [INFO] ess.py:75 - is_server_alive:None,is_ess_alive:None
+[2025-09-05 15:46:31,213] [INFO] ess.py:75 - is_server_alive:None,is_ess_alive:None
+[2025-09-05 15:46:32,213] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:58:56,366] [INFO] ess.py:88 - Config check passed
+[2025-09-05 15:58:56,366] [INFO] ess.py:92 - Redis connection established
+[2025-09-05 15:58:56,366] [INFO] ess.py:71 - sucessfullly assigned jobs 
+[2025-09-05 15:58:56,366] [INFO] ess.py:75 - is_server_alive:None,is_ess_alive:None
+[2025-09-05 15:58:57,367] [INFO] ess.py:75 - is_server_alive:None,is_ess_alive:None
+[2025-09-05 15:58:58,367] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:58:59,368] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:59:00,368] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:59:01,368] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:59:02,369] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:59:03,369] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:59:04,369] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:59:05,370] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:59:06,370] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:59:07,370] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:59:08,371] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:59:09,371] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:59:10,371] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:59:11,372] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:59:12,372] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:59:13,373] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:59:14,373] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:59:15,373] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:59:16,373] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:59:17,374] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:59:18,374] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:59:19,374] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:59:20,375] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:59:21,375] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:59:22,375] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:59:23,376] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:59:24,376] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:59:25,376] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:59:26,377] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:59:27,377] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:59:28,378] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:59:29,378] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:59:30,378] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:59:31,379] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:59:32,379] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:59:33,380] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:59:34,381] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:59:35,381] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:59:36,381] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:59:37,382] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:59:38,382] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:59:39,383] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:59:40,383] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:59:41,384] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:59:42,384] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:59:43,385] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:59:44,385] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:59:45,386] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:59:46,386] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:59:47,387] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:59:48,387] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:59:49,388] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:59:50,388] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:59:51,388] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:59:52,389] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:59:53,390] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:59:54,390] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:59:55,391] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:59:56,391] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:59:57,392] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:59:58,392] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 15:59:59,393] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:00:00,394] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:00:01,395] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:00:02,395] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:00:03,396] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:00:04,396] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:00:05,397] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:00:06,397] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:00:07,398] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:00:08,398] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:00:09,399] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:00:10,399] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:00:11,400] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:00:12,400] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:00:13,400] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:00:14,401] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:00:15,401] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:00:16,401] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:00:17,402] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:00:18,402] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:00:19,403] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:00:20,404] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:00:21,404] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:00:22,405] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:00:23,406] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:00:24,406] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:00:25,407] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:00:26,407] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:00:27,408] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:00:28,408] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:00:29,409] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:00:30,409] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:00:31,410] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:00:32,411] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:00:33,412] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:00:34,412] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:00:35,413] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:00:36,414] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:00:37,414] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:00:38,414] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:00:39,415] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:00:40,416] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:00:41,416] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:00:42,417] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:00:43,418] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:00:44,418] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:00:45,419] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:00:46,419] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:00:47,420] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:00:48,420] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:00:49,420] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:00:50,421] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:00:51,421] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:00:52,421] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:00:53,422] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:00:54,422] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:00:55,423] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:00:56,423] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:00:57,423] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:00:58,424] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:00:59,424] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:01:00,425] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:01:01,426] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:01:02,426] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:01:03,427] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:01:04,427] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:01:05,428] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:01:06,428] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:01:07,429] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:01:08,429] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:01:09,430] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:01:10,430] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:01:11,431] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:01:12,431] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:01:13,432] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:01:14,432] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:01:15,433] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:01:16,433] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:01:17,434] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:01:18,434] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:01:19,435] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:01:20,435] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:01:21,436] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:01:22,437] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:01:23,437] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:01:24,438] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:01:25,439] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:01:26,439] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:01:27,439] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:01:28,440] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:01:29,441] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:01:30,441] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:01:31,442] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:01:32,443] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:01:33,444] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:01:34,444] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:01:35,445] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:01:36,445] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:01:37,446] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:01:38,446] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:01:39,447] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:01:40,447] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:01:41,447] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:01:42,448] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:01:43,448] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:01:44,449] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:01:45,449] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:01:46,449] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:01:47,450] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:01:48,450] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:01:49,451] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:01:50,451] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:01:51,452] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:01:52,453] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:01:53,453] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:01:54,454] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:01:55,455] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:01:56,455] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:01:57,456] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:01:58,456] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:01:59,457] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:02:00,458] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:02:01,458] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:02:02,459] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:02:03,459] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:02:04,460] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:02:05,460] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:02:06,460] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:02:07,461] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:02:08,462] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:02:09,462] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:02:10,463] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:02:11,464] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:02:12,464] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:02:13,465] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:02:14,465] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:02:15,466] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:02:16,467] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:02:17,467] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:02:18,468] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:02:19,468] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:02:20,469] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:02:21,470] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:02:22,470] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:02:23,470] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:02:24,470] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:02:25,471] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:02:26,471] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:02:27,472] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:02:28,473] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:02:29,473] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:02:30,474] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:02:31,474] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:02:32,475] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:02:33,475] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:02:34,476] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:02:35,476] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:02:36,476] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:02:37,477] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:02:38,477] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:02:39,477] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:02:40,478] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:02:41,478] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:02:42,479] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:02:43,479] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:02:44,480] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:02:45,481] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:02:46,481] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:02:47,482] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:02:48,482] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:02:49,483] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:02:50,483] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:02:51,484] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:02:52,484] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:02:53,485] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:02:54,485] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:02:55,486] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:02:56,487] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:02:57,487] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:02:58,488] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:02:59,489] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:03:00,489] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:03:01,490] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:03:02,490] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:03:03,490] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:03:04,491] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:03:05,491] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:03:06,492] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:03:07,492] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:03:08,493] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:03:09,494] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:03:10,494] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:03:11,494] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:03:12,495] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:03:13,495] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:03:14,496] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:03:15,496] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:03:16,497] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:03:17,498] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:03:18,498] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:14:39,503] [INFO] ess.py:88 - Config check passed
+[2025-09-05 16:14:39,503] [INFO] ess.py:92 - Redis connection established
+[2025-09-05 16:14:39,503] [INFO] ess.py:71 - sucessfullly assigned jobs 
+[2025-09-05 16:14:39,503] [INFO] ess.py:75 - is_server_alive:None,is_ess_alive:None
+[2025-09-05 16:14:40,504] [INFO] ess.py:75 - is_server_alive:None,is_ess_alive:None
+[2025-09-05 16:14:41,505] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:14:42,505] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:14:43,506] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:14:44,506] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:14:45,507] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:14:46,507] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:14:47,507] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:14:48,508] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:14:49,508] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:14:50,508] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:14:51,509] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:14:52,509] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:19:51,648] [INFO] ess.py:88 - Config check passed
+[2025-09-05 16:19:51,648] [INFO] ess.py:92 - Redis connection established
+[2025-09-05 16:19:51,648] [INFO] ess.py:71 - sucessfullly assigned jobs 
+[2025-09-05 16:19:51,648] [INFO] ess.py:75 - is_server_alive:None,is_ess_alive:None
+[2025-09-05 16:19:52,650] [INFO] ess.py:75 - is_server_alive:None,is_ess_alive:None
+[2025-09-05 16:19:53,650] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:19:54,651] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:19:55,651] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:19:56,651] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:19:57,652] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:19:58,652] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:19:59,653] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:20:00,653] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:20:01,654] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:20:02,655] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:True
+[2025-09-05 16:20:03,655] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:True
+[2025-09-05 16:20:04,655] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:True
+[2025-09-05 16:20:05,656] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:True
+[2025-09-05 16:20:06,656] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:True
+[2025-09-05 16:20:07,656] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:True
+[2025-09-05 16:20:08,657] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:True
+[2025-09-05 16:20:09,657] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:True
+[2025-09-05 16:20:10,657] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:True
+[2025-09-05 16:20:11,658] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:True
+[2025-09-05 16:20:12,658] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:True
+[2025-09-05 16:20:13,659] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:True
+[2025-09-05 16:20:14,659] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:True
+[2025-09-05 16:20:15,660] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:True
+[2025-09-05 16:20:16,660] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:True
+[2025-09-05 16:20:17,661] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:True
+[2025-09-05 16:20:18,662] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:True
+[2025-09-05 16:20:19,662] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:True
+[2025-09-05 16:20:20,662] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:True
+[2025-09-05 16:20:21,663] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:True
+[2025-09-05 16:20:22,663] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:True
+[2025-09-05 16:20:23,663] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:True
+[2025-09-05 16:20:24,664] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:True
+[2025-09-05 16:20:25,664] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:True
+[2025-09-05 16:20:26,664] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:True
+[2025-09-05 16:20:27,665] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:True
+[2025-09-05 16:20:28,665] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:True
+[2025-09-05 16:20:29,665] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:True
+[2025-09-05 16:20:30,665] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:True
+[2025-09-05 16:20:31,666] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:True
+[2025-09-05 16:20:32,666] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:True
+[2025-09-05 16:20:33,666] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:True
+[2025-09-05 16:20:34,667] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:True
+[2025-09-05 16:20:35,667] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:True
+[2025-09-05 16:20:38,466] [INFO] ess.py:89 - Config check passed
+[2025-09-05 16:20:38,466] [INFO] ess.py:93 - Redis connection established
+[2025-09-05 16:20:38,467] [INFO] ess.py:71 - sucessfullly assigned jobs 
+[2025-09-05 16:20:38,467] [INFO] ess.py:75 - is_server_alive:None,is_ess_alive:None
+[2025-09-05 16:20:39,467] [INFO] ess.py:75 - is_server_alive:None,is_ess_alive:None
+[2025-09-05 16:20:40,468] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:20:41,469] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:20:42,469] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:20:43,470] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:20:44,470] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:20:45,471] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:20:46,471] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:20:47,472] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:20:48,472] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:None
+[2025-09-05 16:20:49,473] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:True
+[2025-09-05 16:20:50,473] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:True
+[2025-09-05 16:20:51,473] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:True
+[2025-09-05 16:20:52,474] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:True
+[2025-09-05 16:20:53,474] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:True
+[2025-09-05 16:20:54,475] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:True
+[2025-09-05 16:20:55,475] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:True
+[2025-09-05 16:20:56,475] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:True
+[2025-09-05 16:20:57,476] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:True
+[2025-09-05 16:20:58,476] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:True
+[2025-09-05 16:20:59,477] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:True
+[2025-09-05 16:21:00,477] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:True
+[2025-09-05 16:21:01,478] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:True
+[2025-09-05 16:21:02,478] [INFO] ess.py:75 - is_server_alive:False,is_ess_alive:True
+[2025-09-05 16:36:27,391] [INFO] ess.py:90 - Config check passed
+[2025-09-05 16:36:27,392] [INFO] ess.py:94 - Redis connection established
+[2025-09-05 16:36:27,392] [INFO] ess.py:72 - sucessfullly assigned jobs 
+[2025-09-05 16:36:27,392] [INFO] ess.py:76 - is_server_alive:None,is_ess_alive:None
+[2025-09-05 16:36:28,392] [INFO] ess.py:76 - is_server_alive:None,is_ess_alive:None
+[2025-09-05 17:59:11,638] [INFO] ess.py:97 - Config check passed
+[2025-09-05 17:59:11,638] [INFO] ess.py:101 - Redis connection established
+[2025-09-05 17:59:11,639] [INFO] ess.py:72 - sucessfullly assigned jobs 
+[2025-09-05 17:59:11,639] [INFO] ess.py:92 - is_server_alive:None,is_ess_alive:None,working_server:None
+[2025-09-05 17:59:12,639] [INFO] ess.py:92 - is_server_alive:None,is_ess_alive:None,working_server:None
+[2025-09-05 17:59:13,640] [INFO] ess.py:92 - is_server_alive:None,is_ess_alive:None,working_server:None
+[2025-09-05 17:59:14,641] [INFO] ess.py:92 - is_server_alive:None,is_ess_alive:None,working_server:None
+[2025-09-05 17:59:15,641] [INFO] ess.py:92 - is_server_alive:None,is_ess_alive:None,working_server:None
+[2025-09-05 17:59:16,642] [INFO] ess.py:92 - is_server_alive:None,is_ess_alive:None,working_server:None
+[2025-09-05 17:59:17,642] [INFO] ess.py:92 - is_server_alive:None,is_ess_alive:None,working_server:None
+[2025-09-05 17:59:18,643] [INFO] ess.py:92 - is_server_alive:None,is_ess_alive:None,working_server:None
+[2025-09-05 17:59:19,643] [INFO] ess.py:92 - is_server_alive:None,is_ess_alive:None,working_server:None
+[2025-09-05 17:59:20,644] [INFO] ess.py:92 - is_server_alive:None,is_ess_alive:None,working_server:None
+[2025-09-05 17:59:21,644] [INFO] ess.py:92 - is_server_alive:None,is_ess_alive:None,working_server:None
+[2025-09-05 17:59:22,644] [INFO] ess.py:92 - is_server_alive:None,is_ess_alive:True,working_server:None
+[2025-09-05 17:59:23,645] [INFO] ess.py:92 - is_server_alive:None,is_ess_alive:True,working_server:None
+[2025-09-05 17:59:24,645] [INFO] ess.py:92 - is_server_alive:None,is_ess_alive:True,working_server:None
+[2025-09-05 17:59:25,646] [INFO] ess.py:92 - is_server_alive:None,is_ess_alive:True,working_server:None
+[2025-09-05 17:59:26,647] [INFO] ess.py:92 - is_server_alive:None,is_ess_alive:True,working_server:None
+[2025-09-05 17:59:27,647] [INFO] ess.py:92 - is_server_alive:None,is_ess_alive:True,working_server:None
+[2025-09-05 17:59:28,647] [INFO] ess.py:92 - is_server_alive:None,is_ess_alive:True,working_server:None
+[2025-09-05 17:59:29,648] [INFO] ess.py:92 - is_server_alive:None,is_ess_alive:True,working_server:None
+[2025-09-05 17:59:30,648] [INFO] ess.py:92 - is_server_alive:None,is_ess_alive:True,working_server:None
+[2025-09-05 17:59:31,649] [INFO] ess.py:92 - is_server_alive:None,is_ess_alive:True,working_server:None
+[2025-09-05 17:59:32,649] [INFO] ess.py:92 - is_server_alive:None,is_ess_alive:True,working_server:None
+[2025-09-05 17:59:33,650] [INFO] ess.py:92 - is_server_alive:None,is_ess_alive:True,working_server:None
+[2025-09-05 17:59:34,650] [INFO] ess.py:92 - is_server_alive:None,is_ess_alive:True,working_server:None
