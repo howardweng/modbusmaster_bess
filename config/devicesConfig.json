@@ -5,6 +5,10 @@
     "BESS1": {
      "overview": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_7": [
         "TEXT",
         "1,2,3,4,5,6,7"
@@ -16,10 +20,6 @@
        "register15_20": [
         "TEXT",
         "15,16,17,18,19,20"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ],
        "register51_67": [
         "TEXT",
@@ -66,6 +66,10 @@
      "follow_schedule": false,
      "rack01_status": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_8": [
         "TEXT",
         "1,2,3,4,5,6,7,8"
@@ -77,10 +81,6 @@
        "register17_23": [
         "TEXT",
         "17,18,19,20,21,22,23"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ],
        "register51_67": [
         "TEXT",
@@ -124,6 +124,10 @@
      },
      "rack01_alert": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_9": [
         "TEXT",
         "1,2,3,4,5,6,7,8,9"
@@ -163,10 +167,6 @@
        "register82_90": [
         "TEXT",
         "82,83,84,85,86,87,88,89,90"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ]
       },
       "1-90": {
@@ -184,6 +184,10 @@
      },
      "rack02_status": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_8": [
         "TEXT",
         "1,2,3,4,5,6,7,8"
@@ -195,10 +199,6 @@
        "register17_23": [
         "TEXT",
         "17,18,19,20,21,22,23"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ],
        "register51_67": [
         "TEXT",
@@ -242,6 +242,10 @@
      },
      "rack02_alert": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_9": [
         "TEXT",
         "1,2,3,4,5,6,7,8,9"
@@ -281,10 +285,6 @@
        "register82_90": [
         "TEXT",
         "82,83,84,85,86,87,88,89,90"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ]
       },
       "1-90": {
@@ -302,6 +302,10 @@
      },
      "rack03_status": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_8": [
         "TEXT",
         "1,2,3,4,5,6,7,8"
@@ -313,10 +317,6 @@
        "register17_23": [
         "TEXT",
         "17,18,19,20,21,22,23"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ],
        "register51_67": [
         "TEXT",
@@ -360,6 +360,10 @@
      },
      "rack03_alert": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_9": [
         "TEXT",
         "1,2,3,4,5,6,7,8,9"
@@ -399,10 +403,6 @@
        "register82_90": [
         "TEXT",
         "82,83,84,85,86,87,88,89,90"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ]
       },
       "1-90": {
@@ -420,6 +420,10 @@
      },
      "rack04_status": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_8": [
         "TEXT",
         "1,2,3,4,5,6,7,8"
@@ -431,10 +435,6 @@
        "register17_23": [
         "TEXT",
         "17,18,19,20,21,22,23"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ],
        "register51_67": [
         "TEXT",
@@ -478,6 +478,10 @@
      },
      "rack04_alert": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_9": [
         "TEXT",
         "1,2,3,4,5,6,7,8,9"
@@ -517,10 +521,6 @@
        "register82_90": [
         "TEXT",
         "82,83,84,85,86,87,88,89,90"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ]
       },
       "1-90": {
@@ -547,6 +547,10 @@
      "follow_schedule": false,
      "rack01_Charge_balance_status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register101_110": [
         "TEXT",
         "101,102,103,104,105,106,107,108,109,110"
@@ -811,6 +815,10 @@
      },
      "rack01_Discharge_Equalization_Status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register701_710": [
         "TEXT",
         "701,702,703,704,705,706,707,708,709,710"
@@ -1075,6 +1083,10 @@
      },
      "rack01_State_of_Health_(SOH)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register5001_5019": [
         "TEXT",
         "5001,5003,5005,5007,5009,5011,5013,5015,5017,5019"
@@ -1428,8 +1440,12 @@
       "freq": 450,
       "slaveID": 2
      },
-     "rack01_Internal_resistances": {
+     "rack01_Internal_resistance": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register3801_3819": [
         "TEXT",
         "3801,3803,3805,3807,3809,3811,3813,3815,3817,3819"
@@ -1785,6 +1801,10 @@
      },
      "rack01_Polar_power_line_temperature": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register6201_6219": [
         "TEXT",
         "6201,6203,6205,6207,6209,6211,6213,6215,6217,6219"
@@ -1860,6 +1880,10 @@
      },
      "rack01_TEMPERATURE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register1401_1419": [
         "TEXT",
         "1401,1403,1405,1407,1409,1411,1413,1415,1417,1419"
@@ -2215,6 +2239,10 @@
      },
      "rack01_State_of_Charge_(SOC)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register2601_2619": [
         "TEXT",
         "2601,2603,2605,2607,2609,2611,2613,2615,2617,2619"
@@ -2570,6 +2598,10 @@
      },
      "rack01_VOLTAGE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register201_219": [
         "TEXT",
         "201,203,205,207,209,211,213,215,217,219"
@@ -2925,6 +2957,10 @@
      },
      "rack02_Charge_balance_status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register101_110": [
         "TEXT",
         "101,102,103,104,105,106,107,108,109,110"
@@ -3189,6 +3225,10 @@
      },
      "rack02_Discharge_Equalization_Status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register701_710": [
         "TEXT",
         "701,702,703,704,705,706,707,708,709,710"
@@ -3453,6 +3493,10 @@
      },
      "rack02_State_of_Health_(SOH)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register5001_5019": [
         "TEXT",
         "5001,5003,5005,5007,5009,5011,5013,5015,5017,5019"
@@ -3806,8 +3850,12 @@
       "freq": 450,
       "slaveID": 3
      },
-     "rack02_Internal_resistances": {
+     "rack02_Internal_resistance": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register3801_3819": [
         "TEXT",
         "3801,3803,3805,3807,3809,3811,3813,3815,3817,3819"
@@ -4163,6 +4211,10 @@
      },
      "rack02_Polar_power_line_temperature": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register6201_6219": [
         "TEXT",
         "6201,6203,6205,6207,6209,6211,6213,6215,6217,6219"
@@ -4238,6 +4290,10 @@
      },
      "rack02_TEMPERATURE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register1401_1419": [
         "TEXT",
         "1401,1403,1405,1407,1409,1411,1413,1415,1417,1419"
@@ -4593,6 +4649,10 @@
      },
      "rack02_State_of_Charge_(SOC)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register2601_2619": [
         "TEXT",
         "2601,2603,2605,2607,2609,2611,2613,2615,2617,2619"
@@ -4948,6 +5008,10 @@
      },
      "rack02_VOLTAGE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register201_219": [
         "TEXT",
         "201,203,205,207,209,211,213,215,217,219"
@@ -5303,6 +5367,10 @@
      },
      "rack03_Charge_balance_status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register101_110": [
         "TEXT",
         "101,102,103,104,105,106,107,108,109,110"
@@ -5567,6 +5635,10 @@
      },
      "rack03_Discharge_Equalization_Status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register701_710": [
         "TEXT",
         "701,702,703,704,705,706,707,708,709,710"
@@ -5831,6 +5903,10 @@
      },
      "rack03_State_of_Health_(SOH)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register5001_5019": [
         "TEXT",
         "5001,5003,5005,5007,5009,5011,5013,5015,5017,5019"
@@ -6184,8 +6260,12 @@
       "freq": 450,
       "slaveID": 4
      },
-     "rack03_Internal_resistances": {
+     "rack03_Internal_resistance": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register3801_3819": [
         "TEXT",
         "3801,3803,3805,3807,3809,3811,3813,3815,3817,3819"
@@ -6541,6 +6621,10 @@
      },
      "rack03_Polar_power_line_temperature": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register6201_6219": [
         "TEXT",
         "6201,6203,6205,6207,6209,6211,6213,6215,6217,6219"
@@ -6616,6 +6700,10 @@
      },
      "rack03_TEMPERATURE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register1401_1419": [
         "TEXT",
         "1401,1403,1405,1407,1409,1411,1413,1415,1417,1419"
@@ -6971,6 +7059,10 @@
      },
      "rack03_State_of_Charge_(SOC)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register2601_2619": [
         "TEXT",
         "2601,2603,2605,2607,2609,2611,2613,2615,2617,2619"
@@ -7326,6 +7418,10 @@
      },
      "rack03_VOLTAGE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register201_219": [
         "TEXT",
         "201,203,205,207,209,211,213,215,217,219"
@@ -7681,6 +7777,10 @@
      },
      "rack04_Charge_balance_status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register101_110": [
         "TEXT",
         "101,102,103,104,105,106,107,108,109,110"
@@ -7945,6 +8045,10 @@
      },
      "rack04_Discharge_Equalization_Status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register701_710": [
         "TEXT",
         "701,702,703,704,705,706,707,708,709,710"
@@ -8209,6 +8313,10 @@
      },
      "rack04_State_of_Health_(SOH)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register5001_5019": [
         "TEXT",
         "5001,5003,5005,5007,5009,5011,5013,5015,5017,5019"
@@ -8562,8 +8670,12 @@
       "freq": 450,
       "slaveID": 5
      },
-     "rack04_Internal_resistances": {
+     "rack04_Internal_resistance": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register3801_3819": [
         "TEXT",
         "3801,3803,3805,3807,3809,3811,3813,3815,3817,3819"
@@ -8919,6 +9031,10 @@
      },
      "rack04_Polar_power_line_temperature": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register6201_6219": [
         "TEXT",
         "6201,6203,6205,6207,6209,6211,6213,6215,6217,6219"
@@ -8994,6 +9110,10 @@
      },
      "rack04_TEMPERATURE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register1401_1419": [
         "TEXT",
         "1401,1403,1405,1407,1409,1411,1413,1415,1417,1419"
@@ -9349,6 +9469,10 @@
      },
      "rack04_State_of_Charge_(SOC)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register2601_2619": [
         "TEXT",
         "2601,2603,2605,2607,2609,2611,2613,2615,2617,2619"
@@ -9704,6 +9828,10 @@
      },
      "rack04_VOLTAGE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register201_219": [
         "TEXT",
         "201,203,205,207,209,211,213,215,217,219"
@@ -10061,6 +10189,10 @@
     "BESS2": {
      "overview": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_7": [
         "TEXT",
         "1,2,3,4,5,6,7"
@@ -10072,10 +10204,6 @@
        "register15_20": [
         "TEXT",
         "15,16,17,18,19,20"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ],
        "register51_67": [
         "TEXT",
@@ -10122,6 +10250,10 @@
      "follow_schedule": false,
      "rack01_status": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_8": [
         "TEXT",
         "1,2,3,4,5,6,7,8"
@@ -10133,10 +10265,6 @@
        "register17_23": [
         "TEXT",
         "17,18,19,20,21,22,23"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ],
        "register51_67": [
         "TEXT",
@@ -10180,6 +10308,10 @@
      },
      "rack01_alert": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_9": [
         "TEXT",
         "1,2,3,4,5,6,7,8,9"
@@ -10219,10 +10351,6 @@
        "register82_90": [
         "TEXT",
         "82,83,84,85,86,87,88,89,90"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ]
       },
       "1-90": {
@@ -10240,6 +10368,10 @@
      },
      "rack02_status": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_8": [
         "TEXT",
         "1,2,3,4,5,6,7,8"
@@ -10251,10 +10383,6 @@
        "register17_23": [
         "TEXT",
         "17,18,19,20,21,22,23"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ],
        "register51_67": [
         "TEXT",
@@ -10298,6 +10426,10 @@
      },
      "rack02_alert": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_9": [
         "TEXT",
         "1,2,3,4,5,6,7,8,9"
@@ -10337,10 +10469,6 @@
        "register82_90": [
         "TEXT",
         "82,83,84,85,86,87,88,89,90"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ]
       },
       "1-90": {
@@ -10358,6 +10486,10 @@
      },
      "rack03_status": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_8": [
         "TEXT",
         "1,2,3,4,5,6,7,8"
@@ -10369,10 +10501,6 @@
        "register17_23": [
         "TEXT",
         "17,18,19,20,21,22,23"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ],
        "register51_67": [
         "TEXT",
@@ -10416,6 +10544,10 @@
      },
      "rack03_alert": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_9": [
         "TEXT",
         "1,2,3,4,5,6,7,8,9"
@@ -10455,10 +10587,6 @@
        "register82_90": [
         "TEXT",
         "82,83,84,85,86,87,88,89,90"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ]
       },
       "1-90": {
@@ -10476,6 +10604,10 @@
      },
      "rack04_status": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_8": [
         "TEXT",
         "1,2,3,4,5,6,7,8"
@@ -10487,10 +10619,6 @@
        "register17_23": [
         "TEXT",
         "17,18,19,20,21,22,23"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ],
        "register51_67": [
         "TEXT",
@@ -10534,6 +10662,10 @@
      },
      "rack04_alert": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_9": [
         "TEXT",
         "1,2,3,4,5,6,7,8,9"
@@ -10573,10 +10705,6 @@
        "register82_90": [
         "TEXT",
         "82,83,84,85,86,87,88,89,90"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ]
       },
       "1-90": {
@@ -10603,6 +10731,10 @@
      "follow_schedule": false,
      "rack01_Charge_balance_status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register101_110": [
         "TEXT",
         "101,102,103,104,105,106,107,108,109,110"
@@ -10867,6 +10999,10 @@
      },
      "rack01_Discharge_Equalization_Status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register701_710": [
         "TEXT",
         "701,702,703,704,705,706,707,708,709,710"
@@ -11131,6 +11267,10 @@
      },
      "rack01_State_of_Health_(SOH)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register5001_5019": [
         "TEXT",
         "5001,5003,5005,5007,5009,5011,5013,5015,5017,5019"
@@ -11484,8 +11624,12 @@
       "freq": 450,
       "slaveID": 2
      },
-     "rack01_Internal_resistances": {
+     "rack01_Internal_resistance": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register3801_3819": [
         "TEXT",
         "3801,3803,3805,3807,3809,3811,3813,3815,3817,3819"
@@ -11841,6 +11985,10 @@
      },
      "rack01_Polar_power_line_temperature": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register6201_6219": [
         "TEXT",
         "6201,6203,6205,6207,6209,6211,6213,6215,6217,6219"
@@ -11916,6 +12064,10 @@
      },
      "rack01_TEMPERATURE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register1401_1419": [
         "TEXT",
         "1401,1403,1405,1407,1409,1411,1413,1415,1417,1419"
@@ -12271,6 +12423,10 @@
      },
      "rack01_State_of_Charge_(SOC)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register2601_2619": [
         "TEXT",
         "2601,2603,2605,2607,2609,2611,2613,2615,2617,2619"
@@ -12626,6 +12782,10 @@
      },
      "rack01_VOLTAGE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register201_219": [
         "TEXT",
         "201,203,205,207,209,211,213,215,217,219"
@@ -12981,6 +13141,10 @@
      },
      "rack02_Charge_balance_status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register101_110": [
         "TEXT",
         "101,102,103,104,105,106,107,108,109,110"
@@ -13245,6 +13409,10 @@
      },
      "rack02_Discharge_Equalization_Status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register701_710": [
         "TEXT",
         "701,702,703,704,705,706,707,708,709,710"
@@ -13509,6 +13677,10 @@
      },
      "rack02_State_of_Health_(SOH)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register5001_5019": [
         "TEXT",
         "5001,5003,5005,5007,5009,5011,5013,5015,5017,5019"
@@ -13862,8 +14034,12 @@
       "freq": 450,
       "slaveID": 3
      },
-     "rack02_Internal_resistances": {
+     "rack02_Internal_resistance": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register3801_3819": [
         "TEXT",
         "3801,3803,3805,3807,3809,3811,3813,3815,3817,3819"
@@ -14219,6 +14395,10 @@
      },
      "rack02_Polar_power_line_temperature": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register6201_6219": [
         "TEXT",
         "6201,6203,6205,6207,6209,6211,6213,6215,6217,6219"
@@ -14294,6 +14474,10 @@
      },
      "rack02_TEMPERATURE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register1401_1419": [
         "TEXT",
         "1401,1403,1405,1407,1409,1411,1413,1415,1417,1419"
@@ -14649,6 +14833,10 @@
      },
      "rack02_State_of_Charge_(SOC)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register2601_2619": [
         "TEXT",
         "2601,2603,2605,2607,2609,2611,2613,2615,2617,2619"
@@ -15004,6 +15192,10 @@
      },
      "rack02_VOLTAGE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register201_219": [
         "TEXT",
         "201,203,205,207,209,211,213,215,217,219"
@@ -15359,6 +15551,10 @@
      },
      "rack03_Charge_balance_status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register101_110": [
         "TEXT",
         "101,102,103,104,105,106,107,108,109,110"
@@ -15623,6 +15819,10 @@
      },
      "rack03_Discharge_Equalization_Status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register701_710": [
         "TEXT",
         "701,702,703,704,705,706,707,708,709,710"
@@ -15887,6 +16087,10 @@
      },
      "rack03_State_of_Health_(SOH)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register5001_5019": [
         "TEXT",
         "5001,5003,5005,5007,5009,5011,5013,5015,5017,5019"
@@ -16240,8 +16444,12 @@
       "freq": 450,
       "slaveID": 4
      },
-     "rack03_Internal_resistances": {
+     "rack03_Internal_resistance": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register3801_3819": [
         "TEXT",
         "3801,3803,3805,3807,3809,3811,3813,3815,3817,3819"
@@ -16597,6 +16805,10 @@
      },
      "rack03_Polar_power_line_temperature": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register6201_6219": [
         "TEXT",
         "6201,6203,6205,6207,6209,6211,6213,6215,6217,6219"
@@ -16672,6 +16884,10 @@
      },
      "rack03_TEMPERATURE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register1401_1419": [
         "TEXT",
         "1401,1403,1405,1407,1409,1411,1413,1415,1417,1419"
@@ -17027,6 +17243,10 @@
      },
      "rack03_State_of_Charge_(SOC)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register2601_2619": [
         "TEXT",
         "2601,2603,2605,2607,2609,2611,2613,2615,2617,2619"
@@ -17382,6 +17602,10 @@
      },
      "rack03_VOLTAGE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register201_219": [
         "TEXT",
         "201,203,205,207,209,211,213,215,217,219"
@@ -17737,6 +17961,10 @@
      },
      "rack04_Charge_balance_status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register101_110": [
         "TEXT",
         "101,102,103,104,105,106,107,108,109,110"
@@ -18001,6 +18229,10 @@
      },
      "rack04_Discharge_Equalization_Status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register701_710": [
         "TEXT",
         "701,702,703,704,705,706,707,708,709,710"
@@ -18265,6 +18497,10 @@
      },
      "rack04_State_of_Health_(SOH)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register5001_5019": [
         "TEXT",
         "5001,5003,5005,5007,5009,5011,5013,5015,5017,5019"
@@ -18618,8 +18854,12 @@
       "freq": 450,
       "slaveID": 5
      },
-     "rack04_Internal_resistances": {
+     "rack04_Internal_resistance": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register3801_3819": [
         "TEXT",
         "3801,3803,3805,3807,3809,3811,3813,3815,3817,3819"
@@ -18975,6 +19215,10 @@
      },
      "rack04_Polar_power_line_temperature": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register6201_6219": [
         "TEXT",
         "6201,6203,6205,6207,6209,6211,6213,6215,6217,6219"
@@ -19050,6 +19294,10 @@
      },
      "rack04_TEMPERATURE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register1401_1419": [
         "TEXT",
         "1401,1403,1405,1407,1409,1411,1413,1415,1417,1419"
@@ -19405,6 +19653,10 @@
      },
      "rack04_State_of_Charge_(SOC)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register2601_2619": [
         "TEXT",
         "2601,2603,2605,2607,2609,2611,2613,2615,2617,2619"
@@ -19760,6 +20012,10 @@
      },
      "rack04_VOLTAGE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register201_219": [
         "TEXT",
         "201,203,205,207,209,211,213,215,217,219"
@@ -20117,6 +20373,10 @@
     "BESS3": {
      "overview": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_7": [
         "TEXT",
         "1,2,3,4,5,6,7"
@@ -20128,10 +20388,6 @@
        "register15_20": [
         "TEXT",
         "15,16,17,18,19,20"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ],
        "register51_67": [
         "TEXT",
@@ -20178,6 +20434,10 @@
      "follow_schedule": false,
      "rack01_status": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_8": [
         "TEXT",
         "1,2,3,4,5,6,7,8"
@@ -20189,10 +20449,6 @@
        "register17_23": [
         "TEXT",
         "17,18,19,20,21,22,23"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ],
        "register51_67": [
         "TEXT",
@@ -20236,6 +20492,10 @@
      },
      "rack01_alert": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_9": [
         "TEXT",
         "1,2,3,4,5,6,7,8,9"
@@ -20275,10 +20535,6 @@
        "register82_90": [
         "TEXT",
         "82,83,84,85,86,87,88,89,90"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ]
       },
       "1-90": {
@@ -20296,6 +20552,10 @@
      },
      "rack02_status": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_8": [
         "TEXT",
         "1,2,3,4,5,6,7,8"
@@ -20307,10 +20567,6 @@
        "register17_23": [
         "TEXT",
         "17,18,19,20,21,22,23"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ],
        "register51_67": [
         "TEXT",
@@ -20354,6 +20610,10 @@
      },
      "rack02_alert": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_9": [
         "TEXT",
         "1,2,3,4,5,6,7,8,9"
@@ -20393,10 +20653,6 @@
        "register82_90": [
         "TEXT",
         "82,83,84,85,86,87,88,89,90"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ]
       },
       "1-90": {
@@ -20414,6 +20670,10 @@
      },
      "rack03_status": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_8": [
         "TEXT",
         "1,2,3,4,5,6,7,8"
@@ -20425,10 +20685,6 @@
        "register17_23": [
         "TEXT",
         "17,18,19,20,21,22,23"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ],
        "register51_67": [
         "TEXT",
@@ -20472,6 +20728,10 @@
      },
      "rack03_alert": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_9": [
         "TEXT",
         "1,2,3,4,5,6,7,8,9"
@@ -20511,10 +20771,6 @@
        "register82_90": [
         "TEXT",
         "82,83,84,85,86,87,88,89,90"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ]
       },
       "1-90": {
@@ -20532,6 +20788,10 @@
      },
      "rack04_status": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_8": [
         "TEXT",
         "1,2,3,4,5,6,7,8"
@@ -20543,10 +20803,6 @@
        "register17_23": [
         "TEXT",
         "17,18,19,20,21,22,23"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ],
        "register51_67": [
         "TEXT",
@@ -20590,6 +20846,10 @@
      },
      "rack04_alert": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_9": [
         "TEXT",
         "1,2,3,4,5,6,7,8,9"
@@ -20629,10 +20889,6 @@
        "register82_90": [
         "TEXT",
         "82,83,84,85,86,87,88,89,90"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ]
       },
       "1-90": {
@@ -20659,6 +20915,10 @@
      "follow_schedule": false,
      "rack01_Charge_balance_status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register101_110": [
         "TEXT",
         "101,102,103,104,105,106,107,108,109,110"
@@ -20923,6 +21183,10 @@
      },
      "rack01_Discharge_Equalization_Status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register701_710": [
         "TEXT",
         "701,702,703,704,705,706,707,708,709,710"
@@ -21187,6 +21451,10 @@
      },
      "rack01_State_of_Health_(SOH)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register5001_5019": [
         "TEXT",
         "5001,5003,5005,5007,5009,5011,5013,5015,5017,5019"
@@ -21540,8 +21808,12 @@
       "freq": 450,
       "slaveID": 2
      },
-     "rack01_Internal_resistances": {
+     "rack01_Internal_resistance": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register3801_3819": [
         "TEXT",
         "3801,3803,3805,3807,3809,3811,3813,3815,3817,3819"
@@ -21897,6 +22169,10 @@
      },
      "rack01_Polar_power_line_temperature": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register6201_6219": [
         "TEXT",
         "6201,6203,6205,6207,6209,6211,6213,6215,6217,6219"
@@ -21972,6 +22248,10 @@
      },
      "rack01_TEMPERATURE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register1401_1419": [
         "TEXT",
         "1401,1403,1405,1407,1409,1411,1413,1415,1417,1419"
@@ -22327,6 +22607,10 @@
      },
      "rack01_State_of_Charge_(SOC)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register2601_2619": [
         "TEXT",
         "2601,2603,2605,2607,2609,2611,2613,2615,2617,2619"
@@ -22682,6 +22966,10 @@
      },
      "rack01_VOLTAGE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register201_219": [
         "TEXT",
         "201,203,205,207,209,211,213,215,217,219"
@@ -23037,6 +23325,10 @@
      },
      "rack02_Charge_balance_status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register101_110": [
         "TEXT",
         "101,102,103,104,105,106,107,108,109,110"
@@ -23301,6 +23593,10 @@
      },
      "rack02_Discharge_Equalization_Status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register701_710": [
         "TEXT",
         "701,702,703,704,705,706,707,708,709,710"
@@ -23565,6 +23861,10 @@
      },
      "rack02_State_of_Health_(SOH)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register5001_5019": [
         "TEXT",
         "5001,5003,5005,5007,5009,5011,5013,5015,5017,5019"
@@ -23918,8 +24218,12 @@
       "freq": 450,
       "slaveID": 3
      },
-     "rack02_Internal_resistances": {
+     "rack02_Internal_resistance": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register3801_3819": [
         "TEXT",
         "3801,3803,3805,3807,3809,3811,3813,3815,3817,3819"
@@ -24275,6 +24579,10 @@
      },
      "rack02_Polar_power_line_temperature": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register6201_6219": [
         "TEXT",
         "6201,6203,6205,6207,6209,6211,6213,6215,6217,6219"
@@ -24350,6 +24658,10 @@
      },
      "rack02_TEMPERATURE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register1401_1419": [
         "TEXT",
         "1401,1403,1405,1407,1409,1411,1413,1415,1417,1419"
@@ -24705,6 +25017,10 @@
      },
      "rack02_State_of_Charge_(SOC)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register2601_2619": [
         "TEXT",
         "2601,2603,2605,2607,2609,2611,2613,2615,2617,2619"
@@ -25060,6 +25376,10 @@
      },
      "rack02_VOLTAGE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register201_219": [
         "TEXT",
         "201,203,205,207,209,211,213,215,217,219"
@@ -25415,6 +25735,10 @@
      },
      "rack03_Charge_balance_status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register101_110": [
         "TEXT",
         "101,102,103,104,105,106,107,108,109,110"
@@ -25679,6 +26003,10 @@
      },
      "rack03_Discharge_Equalization_Status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register701_710": [
         "TEXT",
         "701,702,703,704,705,706,707,708,709,710"
@@ -25943,6 +26271,10 @@
      },
      "rack03_State_of_Health_(SOH)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register5001_5019": [
         "TEXT",
         "5001,5003,5005,5007,5009,5011,5013,5015,5017,5019"
@@ -26296,8 +26628,12 @@
       "freq": 450,
       "slaveID": 4
      },
-     "rack03_Internal_resistances": {
+     "rack03_Internal_resistance": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register3801_3819": [
         "TEXT",
         "3801,3803,3805,3807,3809,3811,3813,3815,3817,3819"
@@ -26653,6 +26989,10 @@
      },
      "rack03_Polar_power_line_temperature": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register6201_6219": [
         "TEXT",
         "6201,6203,6205,6207,6209,6211,6213,6215,6217,6219"
@@ -26728,6 +27068,10 @@
      },
      "rack03_TEMPERATURE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register1401_1419": [
         "TEXT",
         "1401,1403,1405,1407,1409,1411,1413,1415,1417,1419"
@@ -27083,6 +27427,10 @@
      },
      "rack03_State_of_Charge_(SOC)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register2601_2619": [
         "TEXT",
         "2601,2603,2605,2607,2609,2611,2613,2615,2617,2619"
@@ -27438,6 +27786,10 @@
      },
      "rack03_VOLTAGE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register201_219": [
         "TEXT",
         "201,203,205,207,209,211,213,215,217,219"
@@ -27793,6 +28145,10 @@
      },
      "rack04_Charge_balance_status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register101_110": [
         "TEXT",
         "101,102,103,104,105,106,107,108,109,110"
@@ -28057,6 +28413,10 @@
      },
      "rack04_Discharge_Equalization_Status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register701_710": [
         "TEXT",
         "701,702,703,704,705,706,707,708,709,710"
@@ -28321,6 +28681,10 @@
      },
      "rack04_State_of_Health_(SOH)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register5001_5019": [
         "TEXT",
         "5001,5003,5005,5007,5009,5011,5013,5015,5017,5019"
@@ -28674,8 +29038,12 @@
       "freq": 450,
       "slaveID": 5
      },
-     "rack04_Internal_resistances": {
+     "rack04_Internal_resistance": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register3801_3819": [
         "TEXT",
         "3801,3803,3805,3807,3809,3811,3813,3815,3817,3819"
@@ -29031,6 +29399,10 @@
      },
      "rack04_Polar_power_line_temperature": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register6201_6219": [
         "TEXT",
         "6201,6203,6205,6207,6209,6211,6213,6215,6217,6219"
@@ -29106,6 +29478,10 @@
      },
      "rack04_TEMPERATURE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register1401_1419": [
         "TEXT",
         "1401,1403,1405,1407,1409,1411,1413,1415,1417,1419"
@@ -29461,6 +29837,10 @@
      },
      "rack04_State_of_Charge_(SOC)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register2601_2619": [
         "TEXT",
         "2601,2603,2605,2607,2609,2611,2613,2615,2617,2619"
@@ -29816,6 +30196,10 @@
      },
      "rack04_VOLTAGE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register201_219": [
         "TEXT",
         "201,203,205,207,209,211,213,215,217,219"
@@ -30173,6 +30557,10 @@
     "BESS4": {
      "overview": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_7": [
         "TEXT",
         "1,2,3,4,5,6,7"
@@ -30184,10 +30572,6 @@
        "register15_20": [
         "TEXT",
         "15,16,17,18,19,20"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ],
        "register51_67": [
         "TEXT",
@@ -30234,6 +30618,10 @@
      "follow_schedule": false,
      "rack01_status": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_8": [
         "TEXT",
         "1,2,3,4,5,6,7,8"
@@ -30245,10 +30633,6 @@
        "register17_23": [
         "TEXT",
         "17,18,19,20,21,22,23"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ],
        "register51_67": [
         "TEXT",
@@ -30292,6 +30676,10 @@
      },
      "rack01_alert": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_9": [
         "TEXT",
         "1,2,3,4,5,6,7,8,9"
@@ -30331,10 +30719,6 @@
        "register82_90": [
         "TEXT",
         "82,83,84,85,86,87,88,89,90"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ]
       },
       "1-90": {
@@ -30352,6 +30736,10 @@
      },
      "rack02_status": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_8": [
         "TEXT",
         "1,2,3,4,5,6,7,8"
@@ -30363,10 +30751,6 @@
        "register17_23": [
         "TEXT",
         "17,18,19,20,21,22,23"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ],
        "register51_67": [
         "TEXT",
@@ -30410,6 +30794,10 @@
      },
      "rack02_alert": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_9": [
         "TEXT",
         "1,2,3,4,5,6,7,8,9"
@@ -30449,10 +30837,6 @@
        "register82_90": [
         "TEXT",
         "82,83,84,85,86,87,88,89,90"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ]
       },
       "1-90": {
@@ -30470,6 +30854,10 @@
      },
      "rack03_status": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_8": [
         "TEXT",
         "1,2,3,4,5,6,7,8"
@@ -30481,10 +30869,6 @@
        "register17_23": [
         "TEXT",
         "17,18,19,20,21,22,23"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ],
        "register51_67": [
         "TEXT",
@@ -30528,6 +30912,10 @@
      },
      "rack03_alert": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_9": [
         "TEXT",
         "1,2,3,4,5,6,7,8,9"
@@ -30567,10 +30955,6 @@
        "register82_90": [
         "TEXT",
         "82,83,84,85,86,87,88,89,90"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ]
       },
       "1-90": {
@@ -30588,6 +30972,10 @@
      },
      "rack04_status": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_8": [
         "TEXT",
         "1,2,3,4,5,6,7,8"
@@ -30599,10 +30987,6 @@
        "register17_23": [
         "TEXT",
         "17,18,19,20,21,22,23"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ],
        "register51_67": [
         "TEXT",
@@ -30646,6 +31030,10 @@
      },
      "rack04_alert": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_9": [
         "TEXT",
         "1,2,3,4,5,6,7,8,9"
@@ -30685,10 +31073,6 @@
        "register82_90": [
         "TEXT",
         "82,83,84,85,86,87,88,89,90"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ]
       },
       "1-90": {
@@ -30715,6 +31099,10 @@
      "follow_schedule": false,
      "rack01_Charge_balance_status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register101_110": [
         "TEXT",
         "101,102,103,104,105,106,107,108,109,110"
@@ -30979,6 +31367,10 @@
      },
      "rack01_Discharge_Equalization_Status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register701_710": [
         "TEXT",
         "701,702,703,704,705,706,707,708,709,710"
@@ -31243,6 +31635,10 @@
      },
      "rack01_State_of_Health_(SOH)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register5001_5019": [
         "TEXT",
         "5001,5003,5005,5007,5009,5011,5013,5015,5017,5019"
@@ -31596,8 +31992,12 @@
       "freq": 450,
       "slaveID": 2
      },
-     "rack01_Internal_resistances": {
+     "rack01_Internal_resistance": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register3801_3819": [
         "TEXT",
         "3801,3803,3805,3807,3809,3811,3813,3815,3817,3819"
@@ -31953,6 +32353,10 @@
      },
      "rack01_Polar_power_line_temperature": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register6201_6219": [
         "TEXT",
         "6201,6203,6205,6207,6209,6211,6213,6215,6217,6219"
@@ -32028,6 +32432,10 @@
      },
      "rack01_TEMPERATURE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register1401_1419": [
         "TEXT",
         "1401,1403,1405,1407,1409,1411,1413,1415,1417,1419"
@@ -32383,6 +32791,10 @@
      },
      "rack01_State_of_Charge_(SOC)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register2601_2619": [
         "TEXT",
         "2601,2603,2605,2607,2609,2611,2613,2615,2617,2619"
@@ -32738,6 +33150,10 @@
      },
      "rack01_VOLTAGE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register201_219": [
         "TEXT",
         "201,203,205,207,209,211,213,215,217,219"
@@ -33093,6 +33509,10 @@
      },
      "rack02_Charge_balance_status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register101_110": [
         "TEXT",
         "101,102,103,104,105,106,107,108,109,110"
@@ -33357,6 +33777,10 @@
      },
      "rack02_Discharge_Equalization_Status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register701_710": [
         "TEXT",
         "701,702,703,704,705,706,707,708,709,710"
@@ -33621,6 +34045,10 @@
      },
      "rack02_State_of_Health_(SOH)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register5001_5019": [
         "TEXT",
         "5001,5003,5005,5007,5009,5011,5013,5015,5017,5019"
@@ -33974,8 +34402,12 @@
       "freq": 450,
       "slaveID": 3
      },
-     "rack02_Internal_resistances": {
+     "rack02_Internal_resistance": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register3801_3819": [
         "TEXT",
         "3801,3803,3805,3807,3809,3811,3813,3815,3817,3819"
@@ -34331,6 +34763,10 @@
      },
      "rack02_Polar_power_line_temperature": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register6201_6219": [
         "TEXT",
         "6201,6203,6205,6207,6209,6211,6213,6215,6217,6219"
@@ -34406,6 +34842,10 @@
      },
      "rack02_TEMPERATURE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register1401_1419": [
         "TEXT",
         "1401,1403,1405,1407,1409,1411,1413,1415,1417,1419"
@@ -34761,6 +35201,10 @@
      },
      "rack02_State_of_Charge_(SOC)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register2601_2619": [
         "TEXT",
         "2601,2603,2605,2607,2609,2611,2613,2615,2617,2619"
@@ -35116,6 +35560,10 @@
      },
      "rack02_VOLTAGE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register201_219": [
         "TEXT",
         "201,203,205,207,209,211,213,215,217,219"
@@ -35471,6 +35919,10 @@
      },
      "rack03_Charge_balance_status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register101_110": [
         "TEXT",
         "101,102,103,104,105,106,107,108,109,110"
@@ -35735,6 +36187,10 @@
      },
      "rack03_Discharge_Equalization_Status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register701_710": [
         "TEXT",
         "701,702,703,704,705,706,707,708,709,710"
@@ -35999,6 +36455,10 @@
      },
      "rack03_State_of_Health_(SOH)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register5001_5019": [
         "TEXT",
         "5001,5003,5005,5007,5009,5011,5013,5015,5017,5019"
@@ -36352,8 +36812,12 @@
       "freq": 450,
       "slaveID": 4
      },
-     "rack03_Internal_resistances": {
+     "rack03_Internal_resistance": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register3801_3819": [
         "TEXT",
         "3801,3803,3805,3807,3809,3811,3813,3815,3817,3819"
@@ -36709,6 +37173,10 @@
      },
      "rack03_Polar_power_line_temperature": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register6201_6219": [
         "TEXT",
         "6201,6203,6205,6207,6209,6211,6213,6215,6217,6219"
@@ -36784,6 +37252,10 @@
      },
      "rack03_TEMPERATURE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register1401_1419": [
         "TEXT",
         "1401,1403,1405,1407,1409,1411,1413,1415,1417,1419"
@@ -37139,6 +37611,10 @@
      },
      "rack03_State_of_Charge_(SOC)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register2601_2619": [
         "TEXT",
         "2601,2603,2605,2607,2609,2611,2613,2615,2617,2619"
@@ -37494,6 +37970,10 @@
      },
      "rack03_VOLTAGE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register201_219": [
         "TEXT",
         "201,203,205,207,209,211,213,215,217,219"
@@ -37849,6 +38329,10 @@
      },
      "rack04_Charge_balance_status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register101_110": [
         "TEXT",
         "101,102,103,104,105,106,107,108,109,110"
@@ -38113,6 +38597,10 @@
      },
      "rack04_Discharge_Equalization_Status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register701_710": [
         "TEXT",
         "701,702,703,704,705,706,707,708,709,710"
@@ -38377,6 +38865,10 @@
      },
      "rack04_State_of_Health_(SOH)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register5001_5019": [
         "TEXT",
         "5001,5003,5005,5007,5009,5011,5013,5015,5017,5019"
@@ -38730,8 +39222,12 @@
       "freq": 450,
       "slaveID": 5
      },
-     "rack04_Internal_resistances": {
+     "rack04_Internal_resistance": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register3801_3819": [
         "TEXT",
         "3801,3803,3805,3807,3809,3811,3813,3815,3817,3819"
@@ -39087,6 +39583,10 @@
      },
      "rack04_Polar_power_line_temperature": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register6201_6219": [
         "TEXT",
         "6201,6203,6205,6207,6209,6211,6213,6215,6217,6219"
@@ -39162,6 +39662,10 @@
      },
      "rack04_TEMPERATURE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register1401_1419": [
         "TEXT",
         "1401,1403,1405,1407,1409,1411,1413,1415,1417,1419"
@@ -39517,6 +40021,10 @@
      },
      "rack04_State_of_Charge_(SOC)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register2601_2619": [
         "TEXT",
         "2601,2603,2605,2607,2609,2611,2613,2615,2617,2619"
@@ -39872,6 +40380,10 @@
      },
      "rack04_VOLTAGE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register201_219": [
         "TEXT",
         "201,203,205,207,209,211,213,215,217,219"
@@ -40229,6 +40741,10 @@
     "BESS5": {
      "overview": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_7": [
         "TEXT",
         "1,2,3,4,5,6,7"
@@ -40240,10 +40756,6 @@
        "register15_20": [
         "TEXT",
         "15,16,17,18,19,20"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ],
        "register51_67": [
         "TEXT",
@@ -40290,6 +40802,10 @@
      "follow_schedule": false,
      "rack01_status": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_8": [
         "TEXT",
         "1,2,3,4,5,6,7,8"
@@ -40301,10 +40817,6 @@
        "register17_23": [
         "TEXT",
         "17,18,19,20,21,22,23"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ],
        "register51_67": [
         "TEXT",
@@ -40348,6 +40860,10 @@
      },
      "rack01_alert": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_9": [
         "TEXT",
         "1,2,3,4,5,6,7,8,9"
@@ -40387,10 +40903,6 @@
        "register82_90": [
         "TEXT",
         "82,83,84,85,86,87,88,89,90"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ]
       },
       "1-90": {
@@ -40408,6 +40920,10 @@
      },
      "rack02_status": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_8": [
         "TEXT",
         "1,2,3,4,5,6,7,8"
@@ -40419,10 +40935,6 @@
        "register17_23": [
         "TEXT",
         "17,18,19,20,21,22,23"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ],
        "register51_67": [
         "TEXT",
@@ -40466,6 +40978,10 @@
      },
      "rack02_alert": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_9": [
         "TEXT",
         "1,2,3,4,5,6,7,8,9"
@@ -40505,10 +41021,6 @@
        "register82_90": [
         "TEXT",
         "82,83,84,85,86,87,88,89,90"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ]
       },
       "1-90": {
@@ -40526,6 +41038,10 @@
      },
      "rack03_status": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_8": [
         "TEXT",
         "1,2,3,4,5,6,7,8"
@@ -40537,10 +41053,6 @@
        "register17_23": [
         "TEXT",
         "17,18,19,20,21,22,23"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ],
        "register51_67": [
         "TEXT",
@@ -40584,6 +41096,10 @@
      },
      "rack03_alert": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_9": [
         "TEXT",
         "1,2,3,4,5,6,7,8,9"
@@ -40623,10 +41139,6 @@
        "register82_90": [
         "TEXT",
         "82,83,84,85,86,87,88,89,90"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ]
       },
       "1-90": {
@@ -40644,6 +41156,10 @@
      },
      "rack04_status": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_8": [
         "TEXT",
         "1,2,3,4,5,6,7,8"
@@ -40655,10 +41171,6 @@
        "register17_23": [
         "TEXT",
         "17,18,19,20,21,22,23"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ],
        "register51_67": [
         "TEXT",
@@ -40702,6 +41214,10 @@
      },
      "rack04_alert": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_9": [
         "TEXT",
         "1,2,3,4,5,6,7,8,9"
@@ -40741,10 +41257,6 @@
        "register82_90": [
         "TEXT",
         "82,83,84,85,86,87,88,89,90"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ]
       },
       "1-90": {
@@ -40771,6 +41283,10 @@
      "follow_schedule": false,
      "rack01_Charge_balance_status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register101_110": [
         "TEXT",
         "101,102,103,104,105,106,107,108,109,110"
@@ -41035,6 +41551,10 @@
      },
      "rack01_Discharge_Equalization_Status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register701_710": [
         "TEXT",
         "701,702,703,704,705,706,707,708,709,710"
@@ -41299,6 +41819,10 @@
      },
      "rack01_State_of_Health_(SOH)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register5001_5019": [
         "TEXT",
         "5001,5003,5005,5007,5009,5011,5013,5015,5017,5019"
@@ -41652,8 +42176,12 @@
       "freq": 450,
       "slaveID": 2
      },
-     "rack01_Internal_resistances": {
+     "rack01_Internal_resistance": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register3801_3819": [
         "TEXT",
         "3801,3803,3805,3807,3809,3811,3813,3815,3817,3819"
@@ -42009,6 +42537,10 @@
      },
      "rack01_Polar_power_line_temperature": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register6201_6219": [
         "TEXT",
         "6201,6203,6205,6207,6209,6211,6213,6215,6217,6219"
@@ -42084,6 +42616,10 @@
      },
      "rack01_TEMPERATURE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register1401_1419": [
         "TEXT",
         "1401,1403,1405,1407,1409,1411,1413,1415,1417,1419"
@@ -42439,6 +42975,10 @@
      },
      "rack01_State_of_Charge_(SOC)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register2601_2619": [
         "TEXT",
         "2601,2603,2605,2607,2609,2611,2613,2615,2617,2619"
@@ -42794,6 +43334,10 @@
      },
      "rack01_VOLTAGE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register201_219": [
         "TEXT",
         "201,203,205,207,209,211,213,215,217,219"
@@ -43149,6 +43693,10 @@
      },
      "rack02_Charge_balance_status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register101_110": [
         "TEXT",
         "101,102,103,104,105,106,107,108,109,110"
@@ -43413,6 +43961,10 @@
      },
      "rack02_Discharge_Equalization_Status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register701_710": [
         "TEXT",
         "701,702,703,704,705,706,707,708,709,710"
@@ -43677,6 +44229,10 @@
      },
      "rack02_State_of_Health_(SOH)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register5001_5019": [
         "TEXT",
         "5001,5003,5005,5007,5009,5011,5013,5015,5017,5019"
@@ -44030,8 +44586,12 @@
       "freq": 450,
       "slaveID": 3
      },
-     "rack02_Internal_resistances": {
+     "rack02_Internal_resistance": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register3801_3819": [
         "TEXT",
         "3801,3803,3805,3807,3809,3811,3813,3815,3817,3819"
@@ -44387,6 +44947,10 @@
      },
      "rack02_Polar_power_line_temperature": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register6201_6219": [
         "TEXT",
         "6201,6203,6205,6207,6209,6211,6213,6215,6217,6219"
@@ -44462,6 +45026,10 @@
      },
      "rack02_TEMPERATURE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register1401_1419": [
         "TEXT",
         "1401,1403,1405,1407,1409,1411,1413,1415,1417,1419"
@@ -44817,6 +45385,10 @@
      },
      "rack02_State_of_Charge_(SOC)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register2601_2619": [
         "TEXT",
         "2601,2603,2605,2607,2609,2611,2613,2615,2617,2619"
@@ -45172,6 +45744,10 @@
      },
      "rack02_VOLTAGE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register201_219": [
         "TEXT",
         "201,203,205,207,209,211,213,215,217,219"
@@ -45527,6 +46103,10 @@
      },
      "rack03_Charge_balance_status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register101_110": [
         "TEXT",
         "101,102,103,104,105,106,107,108,109,110"
@@ -45791,6 +46371,10 @@
      },
      "rack03_Discharge_Equalization_Status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register701_710": [
         "TEXT",
         "701,702,703,704,705,706,707,708,709,710"
@@ -46055,6 +46639,10 @@
      },
      "rack03_State_of_Health_(SOH)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register5001_5019": [
         "TEXT",
         "5001,5003,5005,5007,5009,5011,5013,5015,5017,5019"
@@ -46408,8 +46996,12 @@
       "freq": 450,
       "slaveID": 4
      },
-     "rack03_Internal_resistances": {
+     "rack03_Internal_resistance": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register3801_3819": [
         "TEXT",
         "3801,3803,3805,3807,3809,3811,3813,3815,3817,3819"
@@ -46765,6 +47357,10 @@
      },
      "rack03_Polar_power_line_temperature": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register6201_6219": [
         "TEXT",
         "6201,6203,6205,6207,6209,6211,6213,6215,6217,6219"
@@ -46840,6 +47436,10 @@
      },
      "rack03_TEMPERATURE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register1401_1419": [
         "TEXT",
         "1401,1403,1405,1407,1409,1411,1413,1415,1417,1419"
@@ -47195,6 +47795,10 @@
      },
      "rack03_State_of_Charge_(SOC)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register2601_2619": [
         "TEXT",
         "2601,2603,2605,2607,2609,2611,2613,2615,2617,2619"
@@ -47550,6 +48154,10 @@
      },
      "rack03_VOLTAGE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register201_219": [
         "TEXT",
         "201,203,205,207,209,211,213,215,217,219"
@@ -47905,6 +48513,10 @@
      },
      "rack04_Charge_balance_status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register101_110": [
         "TEXT",
         "101,102,103,104,105,106,107,108,109,110"
@@ -48169,6 +48781,10 @@
      },
      "rack04_Discharge_Equalization_Status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register701_710": [
         "TEXT",
         "701,702,703,704,705,706,707,708,709,710"
@@ -48433,6 +49049,10 @@
      },
      "rack04_State_of_Health_(SOH)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register5001_5019": [
         "TEXT",
         "5001,5003,5005,5007,5009,5011,5013,5015,5017,5019"
@@ -48786,8 +49406,12 @@
       "freq": 450,
       "slaveID": 5
      },
-     "rack04_Internal_resistances": {
+     "rack04_Internal_resistance": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register3801_3819": [
         "TEXT",
         "3801,3803,3805,3807,3809,3811,3813,3815,3817,3819"
@@ -49143,6 +49767,10 @@
      },
      "rack04_Polar_power_line_temperature": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register6201_6219": [
         "TEXT",
         "6201,6203,6205,6207,6209,6211,6213,6215,6217,6219"
@@ -49218,6 +49846,10 @@
      },
      "rack04_TEMPERATURE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register1401_1419": [
         "TEXT",
         "1401,1403,1405,1407,1409,1411,1413,1415,1417,1419"
@@ -49573,6 +50205,10 @@
      },
      "rack04_State_of_Charge_(SOC)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register2601_2619": [
         "TEXT",
         "2601,2603,2605,2607,2609,2611,2613,2615,2617,2619"
@@ -49928,6 +50564,10 @@
      },
      "rack04_VOLTAGE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register201_219": [
         "TEXT",
         "201,203,205,207,209,211,213,215,217,219"
@@ -50285,6 +50925,10 @@
     "BESS6": {
      "overview": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_7": [
         "TEXT",
         "1,2,3,4,5,6,7"
@@ -50296,10 +50940,6 @@
        "register15_20": [
         "TEXT",
         "15,16,17,18,19,20"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ],
        "register51_67": [
         "TEXT",
@@ -50346,6 +50986,10 @@
      "follow_schedule": false,
      "rack01_status": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_8": [
         "TEXT",
         "1,2,3,4,5,6,7,8"
@@ -50357,10 +51001,6 @@
        "register17_23": [
         "TEXT",
         "17,18,19,20,21,22,23"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ],
        "register51_67": [
         "TEXT",
@@ -50404,6 +51044,10 @@
      },
      "rack01_alert": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_9": [
         "TEXT",
         "1,2,3,4,5,6,7,8,9"
@@ -50443,10 +51087,6 @@
        "register82_90": [
         "TEXT",
         "82,83,84,85,86,87,88,89,90"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ]
       },
       "1-90": {
@@ -50464,6 +51104,10 @@
      },
      "rack02_status": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_8": [
         "TEXT",
         "1,2,3,4,5,6,7,8"
@@ -50475,10 +51119,6 @@
        "register17_23": [
         "TEXT",
         "17,18,19,20,21,22,23"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ],
        "register51_67": [
         "TEXT",
@@ -50522,6 +51162,10 @@
      },
      "rack02_alert": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_9": [
         "TEXT",
         "1,2,3,4,5,6,7,8,9"
@@ -50561,10 +51205,6 @@
        "register82_90": [
         "TEXT",
         "82,83,84,85,86,87,88,89,90"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ]
       },
       "1-90": {
@@ -50582,6 +51222,10 @@
      },
      "rack03_status": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_8": [
         "TEXT",
         "1,2,3,4,5,6,7,8"
@@ -50593,10 +51237,6 @@
        "register17_23": [
         "TEXT",
         "17,18,19,20,21,22,23"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ],
        "register51_67": [
         "TEXT",
@@ -50640,6 +51280,10 @@
      },
      "rack03_alert": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_9": [
         "TEXT",
         "1,2,3,4,5,6,7,8,9"
@@ -50679,10 +51323,6 @@
        "register82_90": [
         "TEXT",
         "82,83,84,85,86,87,88,89,90"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ]
       },
       "1-90": {
@@ -50700,6 +51340,10 @@
      },
      "rack04_status": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_8": [
         "TEXT",
         "1,2,3,4,5,6,7,8"
@@ -50711,10 +51355,6 @@
        "register17_23": [
         "TEXT",
         "17,18,19,20,21,22,23"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ],
        "register51_67": [
         "TEXT",
@@ -50758,6 +51398,10 @@
      },
      "rack04_alert": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_9": [
         "TEXT",
         "1,2,3,4,5,6,7,8,9"
@@ -50797,10 +51441,6 @@
        "register82_90": [
         "TEXT",
         "82,83,84,85,86,87,88,89,90"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ]
       },
       "1-90": {
@@ -50827,6 +51467,10 @@
      "follow_schedule": false,
      "rack01_Charge_balance_status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register101_110": [
         "TEXT",
         "101,102,103,104,105,106,107,108,109,110"
@@ -51091,6 +51735,10 @@
      },
      "rack01_Discharge_Equalization_Status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register701_710": [
         "TEXT",
         "701,702,703,704,705,706,707,708,709,710"
@@ -51355,6 +52003,10 @@
      },
      "rack01_State_of_Health_(SOH)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register5001_5019": [
         "TEXT",
         "5001,5003,5005,5007,5009,5011,5013,5015,5017,5019"
@@ -51708,8 +52360,12 @@
       "freq": 450,
       "slaveID": 2
      },
-     "rack01_Internal_resistances": {
+     "rack01_Internal_resistance": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register3801_3819": [
         "TEXT",
         "3801,3803,3805,3807,3809,3811,3813,3815,3817,3819"
@@ -52065,6 +52721,10 @@
      },
      "rack01_Polar_power_line_temperature": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register6201_6219": [
         "TEXT",
         "6201,6203,6205,6207,6209,6211,6213,6215,6217,6219"
@@ -52140,6 +52800,10 @@
      },
      "rack01_TEMPERATURE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register1401_1419": [
         "TEXT",
         "1401,1403,1405,1407,1409,1411,1413,1415,1417,1419"
@@ -52495,6 +53159,10 @@
      },
      "rack01_State_of_Charge_(SOC)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register2601_2619": [
         "TEXT",
         "2601,2603,2605,2607,2609,2611,2613,2615,2617,2619"
@@ -52850,6 +53518,10 @@
      },
      "rack01_VOLTAGE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register201_219": [
         "TEXT",
         "201,203,205,207,209,211,213,215,217,219"
@@ -53205,6 +53877,10 @@
      },
      "rack02_Charge_balance_status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register101_110": [
         "TEXT",
         "101,102,103,104,105,106,107,108,109,110"
@@ -53469,6 +54145,10 @@
      },
      "rack02_Discharge_Equalization_Status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register701_710": [
         "TEXT",
         "701,702,703,704,705,706,707,708,709,710"
@@ -53733,6 +54413,10 @@
      },
      "rack02_State_of_Health_(SOH)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register5001_5019": [
         "TEXT",
         "5001,5003,5005,5007,5009,5011,5013,5015,5017,5019"
@@ -54086,8 +54770,12 @@
       "freq": 450,
       "slaveID": 3
      },
-     "rack02_Internal_resistances": {
+     "rack02_Internal_resistance": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register3801_3819": [
         "TEXT",
         "3801,3803,3805,3807,3809,3811,3813,3815,3817,3819"
@@ -54443,6 +55131,10 @@
      },
      "rack02_Polar_power_line_temperature": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register6201_6219": [
         "TEXT",
         "6201,6203,6205,6207,6209,6211,6213,6215,6217,6219"
@@ -54518,6 +55210,10 @@
      },
      "rack02_TEMPERATURE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register1401_1419": [
         "TEXT",
         "1401,1403,1405,1407,1409,1411,1413,1415,1417,1419"
@@ -54873,6 +55569,10 @@
      },
      "rack02_State_of_Charge_(SOC)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register2601_2619": [
         "TEXT",
         "2601,2603,2605,2607,2609,2611,2613,2615,2617,2619"
@@ -55228,6 +55928,10 @@
      },
      "rack02_VOLTAGE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register201_219": [
         "TEXT",
         "201,203,205,207,209,211,213,215,217,219"
@@ -55583,6 +56287,10 @@
      },
      "rack03_Charge_balance_status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register101_110": [
         "TEXT",
         "101,102,103,104,105,106,107,108,109,110"
@@ -55847,6 +56555,10 @@
      },
      "rack03_Discharge_Equalization_Status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register701_710": [
         "TEXT",
         "701,702,703,704,705,706,707,708,709,710"
@@ -56111,6 +56823,10 @@
      },
      "rack03_State_of_Health_(SOH)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register5001_5019": [
         "TEXT",
         "5001,5003,5005,5007,5009,5011,5013,5015,5017,5019"
@@ -56464,8 +57180,12 @@
       "freq": 450,
       "slaveID": 4
      },
-     "rack03_Internal_resistances": {
+     "rack03_Internal_resistance": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register3801_3819": [
         "TEXT",
         "3801,3803,3805,3807,3809,3811,3813,3815,3817,3819"
@@ -56821,6 +57541,10 @@
      },
      "rack03_Polar_power_line_temperature": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register6201_6219": [
         "TEXT",
         "6201,6203,6205,6207,6209,6211,6213,6215,6217,6219"
@@ -56896,6 +57620,10 @@
      },
      "rack03_TEMPERATURE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register1401_1419": [
         "TEXT",
         "1401,1403,1405,1407,1409,1411,1413,1415,1417,1419"
@@ -57251,6 +57979,10 @@
      },
      "rack03_State_of_Charge_(SOC)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register2601_2619": [
         "TEXT",
         "2601,2603,2605,2607,2609,2611,2613,2615,2617,2619"
@@ -57606,6 +58338,10 @@
      },
      "rack03_VOLTAGE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register201_219": [
         "TEXT",
         "201,203,205,207,209,211,213,215,217,219"
@@ -57961,6 +58697,10 @@
      },
      "rack04_Charge_balance_status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register101_110": [
         "TEXT",
         "101,102,103,104,105,106,107,108,109,110"
@@ -58225,6 +58965,10 @@
      },
      "rack04_Discharge_Equalization_Status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register701_710": [
         "TEXT",
         "701,702,703,704,705,706,707,708,709,710"
@@ -58489,6 +59233,10 @@
      },
      "rack04_State_of_Health_(SOH)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register5001_5019": [
         "TEXT",
         "5001,5003,5005,5007,5009,5011,5013,5015,5017,5019"
@@ -58842,8 +59590,12 @@
       "freq": 450,
       "slaveID": 5
      },
-     "rack04_Internal_resistances": {
+     "rack04_Internal_resistance": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register3801_3819": [
         "TEXT",
         "3801,3803,3805,3807,3809,3811,3813,3815,3817,3819"
@@ -59199,6 +59951,10 @@
      },
      "rack04_Polar_power_line_temperature": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register6201_6219": [
         "TEXT",
         "6201,6203,6205,6207,6209,6211,6213,6215,6217,6219"
@@ -59274,6 +60030,10 @@
      },
      "rack04_TEMPERATURE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register1401_1419": [
         "TEXT",
         "1401,1403,1405,1407,1409,1411,1413,1415,1417,1419"
@@ -59629,6 +60389,10 @@
      },
      "rack04_State_of_Charge_(SOC)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register2601_2619": [
         "TEXT",
         "2601,2603,2605,2607,2609,2611,2613,2615,2617,2619"
@@ -59984,6 +60748,10 @@
      },
      "rack04_VOLTAGE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register201_219": [
         "TEXT",
         "201,203,205,207,209,211,213,215,217,219"
@@ -60341,6 +61109,10 @@
     "BESS7": {
      "overview": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_7": [
         "TEXT",
         "1,2,3,4,5,6,7"
@@ -60352,10 +61124,6 @@
        "register15_20": [
         "TEXT",
         "15,16,17,18,19,20"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ],
        "register51_67": [
         "TEXT",
@@ -60402,6 +61170,10 @@
      "follow_schedule": false,
      "rack01_status": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_8": [
         "TEXT",
         "1,2,3,4,5,6,7,8"
@@ -60413,10 +61185,6 @@
        "register17_23": [
         "TEXT",
         "17,18,19,20,21,22,23"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ],
        "register51_67": [
         "TEXT",
@@ -60460,6 +61228,10 @@
      },
      "rack01_alert": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_9": [
         "TEXT",
         "1,2,3,4,5,6,7,8,9"
@@ -60499,10 +61271,6 @@
        "register82_90": [
         "TEXT",
         "82,83,84,85,86,87,88,89,90"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ]
       },
       "1-90": {
@@ -60520,6 +61288,10 @@
      },
      "rack02_status": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_8": [
         "TEXT",
         "1,2,3,4,5,6,7,8"
@@ -60531,10 +61303,6 @@
        "register17_23": [
         "TEXT",
         "17,18,19,20,21,22,23"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ],
        "register51_67": [
         "TEXT",
@@ -60578,6 +61346,10 @@
      },
      "rack02_alert": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_9": [
         "TEXT",
         "1,2,3,4,5,6,7,8,9"
@@ -60617,10 +61389,6 @@
        "register82_90": [
         "TEXT",
         "82,83,84,85,86,87,88,89,90"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ]
       },
       "1-90": {
@@ -60638,6 +61406,10 @@
      },
      "rack03_status": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_8": [
         "TEXT",
         "1,2,3,4,5,6,7,8"
@@ -60649,10 +61421,6 @@
        "register17_23": [
         "TEXT",
         "17,18,19,20,21,22,23"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ],
        "register51_67": [
         "TEXT",
@@ -60696,6 +61464,10 @@
      },
      "rack03_alert": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_9": [
         "TEXT",
         "1,2,3,4,5,6,7,8,9"
@@ -60735,10 +61507,6 @@
        "register82_90": [
         "TEXT",
         "82,83,84,85,86,87,88,89,90"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ]
       },
       "1-90": {
@@ -60756,6 +61524,10 @@
      },
      "rack04_status": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_8": [
         "TEXT",
         "1,2,3,4,5,6,7,8"
@@ -60767,10 +61539,6 @@
        "register17_23": [
         "TEXT",
         "17,18,19,20,21,22,23"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ],
        "register51_67": [
         "TEXT",
@@ -60814,6 +61582,10 @@
      },
      "rack04_alert": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_9": [
         "TEXT",
         "1,2,3,4,5,6,7,8,9"
@@ -60853,10 +61625,6 @@
        "register82_90": [
         "TEXT",
         "82,83,84,85,86,87,88,89,90"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ]
       },
       "1-90": {
@@ -60883,6 +61651,10 @@
      "follow_schedule": false,
      "rack01_Charge_balance_status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register101_110": [
         "TEXT",
         "101,102,103,104,105,106,107,108,109,110"
@@ -61147,6 +61919,10 @@
      },
      "rack01_Discharge_Equalization_Status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register701_710": [
         "TEXT",
         "701,702,703,704,705,706,707,708,709,710"
@@ -61411,6 +62187,10 @@
      },
      "rack01_State_of_Health_(SOH)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register5001_5019": [
         "TEXT",
         "5001,5003,5005,5007,5009,5011,5013,5015,5017,5019"
@@ -61764,8 +62544,12 @@
       "freq": 450,
       "slaveID": 2
      },
-     "rack01_Internal_resistances": {
+     "rack01_Internal_resistance": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register3801_3819": [
         "TEXT",
         "3801,3803,3805,3807,3809,3811,3813,3815,3817,3819"
@@ -62121,6 +62905,10 @@
      },
      "rack01_Polar_power_line_temperature": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register6201_6219": [
         "TEXT",
         "6201,6203,6205,6207,6209,6211,6213,6215,6217,6219"
@@ -62196,6 +62984,10 @@
      },
      "rack01_TEMPERATURE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register1401_1419": [
         "TEXT",
         "1401,1403,1405,1407,1409,1411,1413,1415,1417,1419"
@@ -62551,6 +63343,10 @@
      },
      "rack01_State_of_Charge_(SOC)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register2601_2619": [
         "TEXT",
         "2601,2603,2605,2607,2609,2611,2613,2615,2617,2619"
@@ -62906,6 +63702,10 @@
      },
      "rack01_VOLTAGE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register201_219": [
         "TEXT",
         "201,203,205,207,209,211,213,215,217,219"
@@ -63261,6 +64061,10 @@
      },
      "rack02_Charge_balance_status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register101_110": [
         "TEXT",
         "101,102,103,104,105,106,107,108,109,110"
@@ -63525,6 +64329,10 @@
      },
      "rack02_Discharge_Equalization_Status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register701_710": [
         "TEXT",
         "701,702,703,704,705,706,707,708,709,710"
@@ -63789,6 +64597,10 @@
      },
      "rack02_State_of_Health_(SOH)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register5001_5019": [
         "TEXT",
         "5001,5003,5005,5007,5009,5011,5013,5015,5017,5019"
@@ -64142,8 +64954,12 @@
       "freq": 450,
       "slaveID": 3
      },
-     "rack02_Internal_resistances": {
+     "rack02_Internal_resistance": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register3801_3819": [
         "TEXT",
         "3801,3803,3805,3807,3809,3811,3813,3815,3817,3819"
@@ -64499,6 +65315,10 @@
      },
      "rack02_Polar_power_line_temperature": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register6201_6219": [
         "TEXT",
         "6201,6203,6205,6207,6209,6211,6213,6215,6217,6219"
@@ -64574,6 +65394,10 @@
      },
      "rack02_TEMPERATURE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register1401_1419": [
         "TEXT",
         "1401,1403,1405,1407,1409,1411,1413,1415,1417,1419"
@@ -64929,6 +65753,10 @@
      },
      "rack02_State_of_Charge_(SOC)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register2601_2619": [
         "TEXT",
         "2601,2603,2605,2607,2609,2611,2613,2615,2617,2619"
@@ -65284,6 +66112,10 @@
      },
      "rack02_VOLTAGE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register201_219": [
         "TEXT",
         "201,203,205,207,209,211,213,215,217,219"
@@ -65639,6 +66471,10 @@
      },
      "rack03_Charge_balance_status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register101_110": [
         "TEXT",
         "101,102,103,104,105,106,107,108,109,110"
@@ -65903,6 +66739,10 @@
      },
      "rack03_Discharge_Equalization_Status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register701_710": [
         "TEXT",
         "701,702,703,704,705,706,707,708,709,710"
@@ -66167,6 +67007,10 @@
      },
      "rack03_State_of_Health_(SOH)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register5001_5019": [
         "TEXT",
         "5001,5003,5005,5007,5009,5011,5013,5015,5017,5019"
@@ -66520,8 +67364,12 @@
       "freq": 450,
       "slaveID": 4
      },
-     "rack03_Internal_resistances": {
+     "rack03_Internal_resistance": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register3801_3819": [
         "TEXT",
         "3801,3803,3805,3807,3809,3811,3813,3815,3817,3819"
@@ -66877,6 +67725,10 @@
      },
      "rack03_Polar_power_line_temperature": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register6201_6219": [
         "TEXT",
         "6201,6203,6205,6207,6209,6211,6213,6215,6217,6219"
@@ -66952,6 +67804,10 @@
      },
      "rack03_TEMPERATURE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register1401_1419": [
         "TEXT",
         "1401,1403,1405,1407,1409,1411,1413,1415,1417,1419"
@@ -67307,6 +68163,10 @@
      },
      "rack03_State_of_Charge_(SOC)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register2601_2619": [
         "TEXT",
         "2601,2603,2605,2607,2609,2611,2613,2615,2617,2619"
@@ -67662,6 +68522,10 @@
      },
      "rack03_VOLTAGE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register201_219": [
         "TEXT",
         "201,203,205,207,209,211,213,215,217,219"
@@ -68017,6 +68881,10 @@
      },
      "rack04_Charge_balance_status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register101_110": [
         "TEXT",
         "101,102,103,104,105,106,107,108,109,110"
@@ -68281,6 +69149,10 @@
      },
      "rack04_Discharge_Equalization_Status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register701_710": [
         "TEXT",
         "701,702,703,704,705,706,707,708,709,710"
@@ -68545,6 +69417,10 @@
      },
      "rack04_State_of_Health_(SOH)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register5001_5019": [
         "TEXT",
         "5001,5003,5005,5007,5009,5011,5013,5015,5017,5019"
@@ -68898,8 +69774,12 @@
       "freq": 450,
       "slaveID": 5
      },
-     "rack04_Internal_resistances": {
+     "rack04_Internal_resistance": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register3801_3819": [
         "TEXT",
         "3801,3803,3805,3807,3809,3811,3813,3815,3817,3819"
@@ -69255,6 +70135,10 @@
      },
      "rack04_Polar_power_line_temperature": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register6201_6219": [
         "TEXT",
         "6201,6203,6205,6207,6209,6211,6213,6215,6217,6219"
@@ -69330,6 +70214,10 @@
      },
      "rack04_TEMPERATURE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register1401_1419": [
         "TEXT",
         "1401,1403,1405,1407,1409,1411,1413,1415,1417,1419"
@@ -69685,6 +70573,10 @@
      },
      "rack04_State_of_Charge_(SOC)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register2601_2619": [
         "TEXT",
         "2601,2603,2605,2607,2609,2611,2613,2615,2617,2619"
@@ -70040,6 +70932,10 @@
      },
      "rack04_VOLTAGE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register201_219": [
         "TEXT",
         "201,203,205,207,209,211,213,215,217,219"
@@ -70397,6 +71293,10 @@
     "BESS8": {
      "overview": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_7": [
         "TEXT",
         "1,2,3,4,5,6,7"
@@ -70408,10 +71308,6 @@
        "register15_20": [
         "TEXT",
         "15,16,17,18,19,20"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ],
        "register51_67": [
         "TEXT",
@@ -70458,6 +71354,10 @@
      "follow_schedule": false,
      "rack01_status": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_8": [
         "TEXT",
         "1,2,3,4,5,6,7,8"
@@ -70469,10 +71369,6 @@
        "register17_23": [
         "TEXT",
         "17,18,19,20,21,22,23"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ],
        "register51_67": [
         "TEXT",
@@ -70516,6 +71412,10 @@
      },
      "rack01_alert": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_9": [
         "TEXT",
         "1,2,3,4,5,6,7,8,9"
@@ -70555,10 +71455,6 @@
        "register82_90": [
         "TEXT",
         "82,83,84,85,86,87,88,89,90"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ]
       },
       "1-90": {
@@ -70576,6 +71472,10 @@
      },
      "rack02_status": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_8": [
         "TEXT",
         "1,2,3,4,5,6,7,8"
@@ -70587,10 +71487,6 @@
        "register17_23": [
         "TEXT",
         "17,18,19,20,21,22,23"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ],
        "register51_67": [
         "TEXT",
@@ -70634,6 +71530,10 @@
      },
      "rack02_alert": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_9": [
         "TEXT",
         "1,2,3,4,5,6,7,8,9"
@@ -70673,10 +71573,6 @@
        "register82_90": [
         "TEXT",
         "82,83,84,85,86,87,88,89,90"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ]
       },
       "1-90": {
@@ -70694,6 +71590,10 @@
      },
      "rack03_status": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_8": [
         "TEXT",
         "1,2,3,4,5,6,7,8"
@@ -70705,10 +71605,6 @@
        "register17_23": [
         "TEXT",
         "17,18,19,20,21,22,23"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ],
        "register51_67": [
         "TEXT",
@@ -70752,6 +71648,10 @@
      },
      "rack03_alert": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_9": [
         "TEXT",
         "1,2,3,4,5,6,7,8,9"
@@ -70791,10 +71691,6 @@
        "register82_90": [
         "TEXT",
         "82,83,84,85,86,87,88,89,90"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ]
       },
       "1-90": {
@@ -70812,6 +71708,10 @@
      },
      "rack04_status": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_8": [
         "TEXT",
         "1,2,3,4,5,6,7,8"
@@ -70823,10 +71723,6 @@
        "register17_23": [
         "TEXT",
         "17,18,19,20,21,22,23"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ],
        "register51_67": [
         "TEXT",
@@ -70870,6 +71766,10 @@
      },
      "rack04_alert": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_9": [
         "TEXT",
         "1,2,3,4,5,6,7,8,9"
@@ -70909,10 +71809,6 @@
        "register82_90": [
         "TEXT",
         "82,83,84,85,86,87,88,89,90"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ]
       },
       "1-90": {
@@ -70939,6 +71835,10 @@
      "follow_schedule": false,
      "rack01_Charge_balance_status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register101_110": [
         "TEXT",
         "101,102,103,104,105,106,107,108,109,110"
@@ -71203,6 +72103,10 @@
      },
      "rack01_Discharge_Equalization_Status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register701_710": [
         "TEXT",
         "701,702,703,704,705,706,707,708,709,710"
@@ -71467,6 +72371,10 @@
      },
      "rack01_State_of_Health_(SOH)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register5001_5019": [
         "TEXT",
         "5001,5003,5005,5007,5009,5011,5013,5015,5017,5019"
@@ -71820,8 +72728,12 @@
       "freq": 450,
       "slaveID": 2
      },
-     "rack01_Internal_resistances": {
+     "rack01_Internal_resistance": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register3801_3819": [
         "TEXT",
         "3801,3803,3805,3807,3809,3811,3813,3815,3817,3819"
@@ -72177,6 +73089,10 @@
      },
      "rack01_Polar_power_line_temperature": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register6201_6219": [
         "TEXT",
         "6201,6203,6205,6207,6209,6211,6213,6215,6217,6219"
@@ -72252,6 +73168,10 @@
      },
      "rack01_TEMPERATURE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register1401_1419": [
         "TEXT",
         "1401,1403,1405,1407,1409,1411,1413,1415,1417,1419"
@@ -72607,6 +73527,10 @@
      },
      "rack01_State_of_Charge_(SOC)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register2601_2619": [
         "TEXT",
         "2601,2603,2605,2607,2609,2611,2613,2615,2617,2619"
@@ -72962,6 +73886,10 @@
      },
      "rack01_VOLTAGE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register201_219": [
         "TEXT",
         "201,203,205,207,209,211,213,215,217,219"
@@ -73317,6 +74245,10 @@
      },
      "rack02_Charge_balance_status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register101_110": [
         "TEXT",
         "101,102,103,104,105,106,107,108,109,110"
@@ -73581,6 +74513,10 @@
      },
      "rack02_Discharge_Equalization_Status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register701_710": [
         "TEXT",
         "701,702,703,704,705,706,707,708,709,710"
@@ -73845,6 +74781,10 @@
      },
      "rack02_State_of_Health_(SOH)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register5001_5019": [
         "TEXT",
         "5001,5003,5005,5007,5009,5011,5013,5015,5017,5019"
@@ -74198,8 +75138,12 @@
       "freq": 450,
       "slaveID": 3
      },
-     "rack02_Internal_resistances": {
+     "rack02_Internal_resistance": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register3801_3819": [
         "TEXT",
         "3801,3803,3805,3807,3809,3811,3813,3815,3817,3819"
@@ -74555,6 +75499,10 @@
      },
      "rack02_Polar_power_line_temperature": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register6201_6219": [
         "TEXT",
         "6201,6203,6205,6207,6209,6211,6213,6215,6217,6219"
@@ -74630,6 +75578,10 @@
      },
      "rack02_TEMPERATURE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register1401_1419": [
         "TEXT",
         "1401,1403,1405,1407,1409,1411,1413,1415,1417,1419"
@@ -74985,6 +75937,10 @@
      },
      "rack02_State_of_Charge_(SOC)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register2601_2619": [
         "TEXT",
         "2601,2603,2605,2607,2609,2611,2613,2615,2617,2619"
@@ -75340,6 +76296,10 @@
      },
      "rack02_VOLTAGE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register201_219": [
         "TEXT",
         "201,203,205,207,209,211,213,215,217,219"
@@ -75695,6 +76655,10 @@
      },
      "rack03_Charge_balance_status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register101_110": [
         "TEXT",
         "101,102,103,104,105,106,107,108,109,110"
@@ -75959,6 +76923,10 @@
      },
      "rack03_Discharge_Equalization_Status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register701_710": [
         "TEXT",
         "701,702,703,704,705,706,707,708,709,710"
@@ -76223,6 +77191,10 @@
      },
      "rack03_State_of_Health_(SOH)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register5001_5019": [
         "TEXT",
         "5001,5003,5005,5007,5009,5011,5013,5015,5017,5019"
@@ -76576,8 +77548,12 @@
       "freq": 450,
       "slaveID": 4
      },
-     "rack03_Internal_resistances": {
+     "rack03_Internal_resistance": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register3801_3819": [
         "TEXT",
         "3801,3803,3805,3807,3809,3811,3813,3815,3817,3819"
@@ -76933,6 +77909,10 @@
      },
      "rack03_Polar_power_line_temperature": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register6201_6219": [
         "TEXT",
         "6201,6203,6205,6207,6209,6211,6213,6215,6217,6219"
@@ -77008,6 +77988,10 @@
      },
      "rack03_TEMPERATURE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register1401_1419": [
         "TEXT",
         "1401,1403,1405,1407,1409,1411,1413,1415,1417,1419"
@@ -77363,6 +78347,10 @@
      },
      "rack03_State_of_Charge_(SOC)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register2601_2619": [
         "TEXT",
         "2601,2603,2605,2607,2609,2611,2613,2615,2617,2619"
@@ -77718,6 +78706,10 @@
      },
      "rack03_VOLTAGE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register201_219": [
         "TEXT",
         "201,203,205,207,209,211,213,215,217,219"
@@ -78073,6 +79065,10 @@
      },
      "rack04_Charge_balance_status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register101_110": [
         "TEXT",
         "101,102,103,104,105,106,107,108,109,110"
@@ -78337,6 +79333,10 @@
      },
      "rack04_Discharge_Equalization_Status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register701_710": [
         "TEXT",
         "701,702,703,704,705,706,707,708,709,710"
@@ -78601,6 +79601,10 @@
      },
      "rack04_State_of_Health_(SOH)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register5001_5019": [
         "TEXT",
         "5001,5003,5005,5007,5009,5011,5013,5015,5017,5019"
@@ -78954,8 +79958,12 @@
       "freq": 450,
       "slaveID": 5
      },
-     "rack04_Internal_resistances": {
+     "rack04_Internal_resistance": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register3801_3819": [
         "TEXT",
         "3801,3803,3805,3807,3809,3811,3813,3815,3817,3819"
@@ -79311,6 +80319,10 @@
      },
      "rack04_Polar_power_line_temperature": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register6201_6219": [
         "TEXT",
         "6201,6203,6205,6207,6209,6211,6213,6215,6217,6219"
@@ -79386,6 +80398,10 @@
      },
      "rack04_TEMPERATURE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register1401_1419": [
         "TEXT",
         "1401,1403,1405,1407,1409,1411,1413,1415,1417,1419"
@@ -79741,6 +80757,10 @@
      },
      "rack04_State_of_Charge_(SOC)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register2601_2619": [
         "TEXT",
         "2601,2603,2605,2607,2609,2611,2613,2615,2617,2619"
@@ -80096,6 +81116,10 @@
      },
      "rack04_VOLTAGE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register201_219": [
         "TEXT",
         "201,203,205,207,209,211,213,215,217,219"
@@ -80453,6 +81477,10 @@
     "BESS9": {
      "overview": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_7": [
         "TEXT",
         "1,2,3,4,5,6,7"
@@ -80464,10 +81492,6 @@
        "register15_20": [
         "TEXT",
         "15,16,17,18,19,20"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ],
        "register51_67": [
         "TEXT",
@@ -80514,6 +81538,10 @@
      "follow_schedule": false,
      "rack01_status": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_8": [
         "TEXT",
         "1,2,3,4,5,6,7,8"
@@ -80525,10 +81553,6 @@
        "register17_23": [
         "TEXT",
         "17,18,19,20,21,22,23"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ],
        "register51_67": [
         "TEXT",
@@ -80572,6 +81596,10 @@
      },
      "rack01_alert": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_9": [
         "TEXT",
         "1,2,3,4,5,6,7,8,9"
@@ -80611,10 +81639,6 @@
        "register82_90": [
         "TEXT",
         "82,83,84,85,86,87,88,89,90"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ]
       },
       "1-90": {
@@ -80632,6 +81656,10 @@
      },
      "rack02_status": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_8": [
         "TEXT",
         "1,2,3,4,5,6,7,8"
@@ -80643,10 +81671,6 @@
        "register17_23": [
         "TEXT",
         "17,18,19,20,21,22,23"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ],
        "register51_67": [
         "TEXT",
@@ -80690,6 +81714,10 @@
      },
      "rack02_alert": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_9": [
         "TEXT",
         "1,2,3,4,5,6,7,8,9"
@@ -80729,10 +81757,6 @@
        "register82_90": [
         "TEXT",
         "82,83,84,85,86,87,88,89,90"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ]
       },
       "1-90": {
@@ -80750,6 +81774,10 @@
      },
      "rack03_status": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_8": [
         "TEXT",
         "1,2,3,4,5,6,7,8"
@@ -80761,10 +81789,6 @@
        "register17_23": [
         "TEXT",
         "17,18,19,20,21,22,23"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ],
        "register51_67": [
         "TEXT",
@@ -80808,6 +81832,10 @@
      },
      "rack03_alert": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_9": [
         "TEXT",
         "1,2,3,4,5,6,7,8,9"
@@ -80847,10 +81875,6 @@
        "register82_90": [
         "TEXT",
         "82,83,84,85,86,87,88,89,90"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ]
       },
       "1-90": {
@@ -80868,6 +81892,10 @@
      },
      "rack04_status": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_8": [
         "TEXT",
         "1,2,3,4,5,6,7,8"
@@ -80879,10 +81907,6 @@
        "register17_23": [
         "TEXT",
         "17,18,19,20,21,22,23"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ],
        "register51_67": [
         "TEXT",
@@ -80926,6 +81950,10 @@
      },
      "rack04_alert": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_9": [
         "TEXT",
         "1,2,3,4,5,6,7,8,9"
@@ -80965,10 +81993,6 @@
        "register82_90": [
         "TEXT",
         "82,83,84,85,86,87,88,89,90"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ]
       },
       "1-90": {
@@ -80995,6 +82019,10 @@
      "follow_schedule": false,
      "rack01_Charge_balance_status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register101_110": [
         "TEXT",
         "101,102,103,104,105,106,107,108,109,110"
@@ -81259,6 +82287,10 @@
      },
      "rack01_Discharge_Equalization_Status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register701_710": [
         "TEXT",
         "701,702,703,704,705,706,707,708,709,710"
@@ -81523,6 +82555,10 @@
      },
      "rack01_State_of_Health_(SOH)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register5001_5019": [
         "TEXT",
         "5001,5003,5005,5007,5009,5011,5013,5015,5017,5019"
@@ -81876,8 +82912,12 @@
       "freq": 450,
       "slaveID": 2
      },
-     "rack01_Internal_resistances": {
+     "rack01_Internal_resistance": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register3801_3819": [
         "TEXT",
         "3801,3803,3805,3807,3809,3811,3813,3815,3817,3819"
@@ -82233,6 +83273,10 @@
      },
      "rack01_Polar_power_line_temperature": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register6201_6219": [
         "TEXT",
         "6201,6203,6205,6207,6209,6211,6213,6215,6217,6219"
@@ -82308,6 +83352,10 @@
      },
      "rack01_TEMPERATURE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register1401_1419": [
         "TEXT",
         "1401,1403,1405,1407,1409,1411,1413,1415,1417,1419"
@@ -82663,6 +83711,10 @@
      },
      "rack01_State_of_Charge_(SOC)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register2601_2619": [
         "TEXT",
         "2601,2603,2605,2607,2609,2611,2613,2615,2617,2619"
@@ -83018,6 +84070,10 @@
      },
      "rack01_VOLTAGE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register201_219": [
         "TEXT",
         "201,203,205,207,209,211,213,215,217,219"
@@ -83373,6 +84429,10 @@
      },
      "rack02_Charge_balance_status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register101_110": [
         "TEXT",
         "101,102,103,104,105,106,107,108,109,110"
@@ -83637,6 +84697,10 @@
      },
      "rack02_Discharge_Equalization_Status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register701_710": [
         "TEXT",
         "701,702,703,704,705,706,707,708,709,710"
@@ -83901,6 +84965,10 @@
      },
      "rack02_State_of_Health_(SOH)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register5001_5019": [
         "TEXT",
         "5001,5003,5005,5007,5009,5011,5013,5015,5017,5019"
@@ -84254,8 +85322,12 @@
       "freq": 450,
       "slaveID": 3
      },
-     "rack02_Internal_resistances": {
+     "rack02_Internal_resistance": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register3801_3819": [
         "TEXT",
         "3801,3803,3805,3807,3809,3811,3813,3815,3817,3819"
@@ -84611,6 +85683,10 @@
      },
      "rack02_Polar_power_line_temperature": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register6201_6219": [
         "TEXT",
         "6201,6203,6205,6207,6209,6211,6213,6215,6217,6219"
@@ -84686,6 +85762,10 @@
      },
      "rack02_TEMPERATURE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register1401_1419": [
         "TEXT",
         "1401,1403,1405,1407,1409,1411,1413,1415,1417,1419"
@@ -85041,6 +86121,10 @@
      },
      "rack02_State_of_Charge_(SOC)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register2601_2619": [
         "TEXT",
         "2601,2603,2605,2607,2609,2611,2613,2615,2617,2619"
@@ -85396,6 +86480,10 @@
      },
      "rack02_VOLTAGE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register201_219": [
         "TEXT",
         "201,203,205,207,209,211,213,215,217,219"
@@ -85751,6 +86839,10 @@
      },
      "rack03_Charge_balance_status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register101_110": [
         "TEXT",
         "101,102,103,104,105,106,107,108,109,110"
@@ -86015,6 +87107,10 @@
      },
      "rack03_Discharge_Equalization_Status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register701_710": [
         "TEXT",
         "701,702,703,704,705,706,707,708,709,710"
@@ -86279,6 +87375,10 @@
      },
      "rack03_State_of_Health_(SOH)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register5001_5019": [
         "TEXT",
         "5001,5003,5005,5007,5009,5011,5013,5015,5017,5019"
@@ -86632,8 +87732,12 @@
       "freq": 450,
       "slaveID": 4
      },
-     "rack03_Internal_resistances": {
+     "rack03_Internal_resistance": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register3801_3819": [
         "TEXT",
         "3801,3803,3805,3807,3809,3811,3813,3815,3817,3819"
@@ -86989,6 +88093,10 @@
      },
      "rack03_Polar_power_line_temperature": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register6201_6219": [
         "TEXT",
         "6201,6203,6205,6207,6209,6211,6213,6215,6217,6219"
@@ -87064,6 +88172,10 @@
      },
      "rack03_TEMPERATURE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register1401_1419": [
         "TEXT",
         "1401,1403,1405,1407,1409,1411,1413,1415,1417,1419"
@@ -87419,6 +88531,10 @@
      },
      "rack03_State_of_Charge_(SOC)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register2601_2619": [
         "TEXT",
         "2601,2603,2605,2607,2609,2611,2613,2615,2617,2619"
@@ -87774,6 +88890,10 @@
      },
      "rack03_VOLTAGE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register201_219": [
         "TEXT",
         "201,203,205,207,209,211,213,215,217,219"
@@ -88129,6 +89249,10 @@
      },
      "rack04_Charge_balance_status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register101_110": [
         "TEXT",
         "101,102,103,104,105,106,107,108,109,110"
@@ -88393,6 +89517,10 @@
      },
      "rack04_Discharge_Equalization_Status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register701_710": [
         "TEXT",
         "701,702,703,704,705,706,707,708,709,710"
@@ -88657,6 +89785,10 @@
      },
      "rack04_State_of_Health_(SOH)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register5001_5019": [
         "TEXT",
         "5001,5003,5005,5007,5009,5011,5013,5015,5017,5019"
@@ -89010,8 +90142,12 @@
       "freq": 450,
       "slaveID": 5
      },
-     "rack04_Internal_resistances": {
+     "rack04_Internal_resistance": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register3801_3819": [
         "TEXT",
         "3801,3803,3805,3807,3809,3811,3813,3815,3817,3819"
@@ -89367,6 +90503,10 @@
      },
      "rack04_Polar_power_line_temperature": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register6201_6219": [
         "TEXT",
         "6201,6203,6205,6207,6209,6211,6213,6215,6217,6219"
@@ -89442,6 +90582,10 @@
      },
      "rack04_TEMPERATURE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register1401_1419": [
         "TEXT",
         "1401,1403,1405,1407,1409,1411,1413,1415,1417,1419"
@@ -89797,6 +90941,10 @@
      },
      "rack04_State_of_Charge_(SOC)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register2601_2619": [
         "TEXT",
         "2601,2603,2605,2607,2609,2611,2613,2615,2617,2619"
@@ -90152,6 +91300,10 @@
      },
      "rack04_VOLTAGE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register201_219": [
         "TEXT",
         "201,203,205,207,209,211,213,215,217,219"
@@ -90509,6 +91661,10 @@
     "BESS10": {
      "overview": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_7": [
         "TEXT",
         "1,2,3,4,5,6,7"
@@ -90520,10 +91676,6 @@
        "register15_20": [
         "TEXT",
         "15,16,17,18,19,20"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ],
        "register51_67": [
         "TEXT",
@@ -90570,6 +91722,10 @@
      "follow_schedule": false,
      "rack01_status": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_8": [
         "TEXT",
         "1,2,3,4,5,6,7,8"
@@ -90581,10 +91737,6 @@
        "register17_23": [
         "TEXT",
         "17,18,19,20,21,22,23"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ],
        "register51_67": [
         "TEXT",
@@ -90628,6 +91780,10 @@
      },
      "rack01_alert": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_9": [
         "TEXT",
         "1,2,3,4,5,6,7,8,9"
@@ -90667,10 +91823,6 @@
        "register82_90": [
         "TEXT",
         "82,83,84,85,86,87,88,89,90"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ]
       },
       "1-90": {
@@ -90688,6 +91840,10 @@
      },
      "rack02_status": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_8": [
         "TEXT",
         "1,2,3,4,5,6,7,8"
@@ -90699,10 +91855,6 @@
        "register17_23": [
         "TEXT",
         "17,18,19,20,21,22,23"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ],
        "register51_67": [
         "TEXT",
@@ -90746,6 +91898,10 @@
      },
      "rack02_alert": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_9": [
         "TEXT",
         "1,2,3,4,5,6,7,8,9"
@@ -90785,10 +91941,6 @@
        "register82_90": [
         "TEXT",
         "82,83,84,85,86,87,88,89,90"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ]
       },
       "1-90": {
@@ -90806,6 +91958,10 @@
      },
      "rack03_status": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_8": [
         "TEXT",
         "1,2,3,4,5,6,7,8"
@@ -90817,10 +91973,6 @@
        "register17_23": [
         "TEXT",
         "17,18,19,20,21,22,23"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ],
        "register51_67": [
         "TEXT",
@@ -90864,6 +92016,10 @@
      },
      "rack03_alert": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_9": [
         "TEXT",
         "1,2,3,4,5,6,7,8,9"
@@ -90903,10 +92059,6 @@
        "register82_90": [
         "TEXT",
         "82,83,84,85,86,87,88,89,90"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ]
       },
       "1-90": {
@@ -90924,6 +92076,10 @@
      },
      "rack04_status": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_8": [
         "TEXT",
         "1,2,3,4,5,6,7,8"
@@ -90935,10 +92091,6 @@
        "register17_23": [
         "TEXT",
         "17,18,19,20,21,22,23"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ],
        "register51_67": [
         "TEXT",
@@ -90982,6 +92134,10 @@
      },
      "rack04_alert": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_9": [
         "TEXT",
         "1,2,3,4,5,6,7,8,9"
@@ -91021,10 +92177,6 @@
        "register82_90": [
         "TEXT",
         "82,83,84,85,86,87,88,89,90"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ]
       },
       "1-90": {
@@ -91051,6 +92203,10 @@
      "follow_schedule": false,
      "rack01_Charge_balance_status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register101_110": [
         "TEXT",
         "101,102,103,104,105,106,107,108,109,110"
@@ -91315,6 +92471,10 @@
      },
      "rack01_Discharge_Equalization_Status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register701_710": [
         "TEXT",
         "701,702,703,704,705,706,707,708,709,710"
@@ -91579,6 +92739,10 @@
      },
      "rack01_State_of_Health_(SOH)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register5001_5019": [
         "TEXT",
         "5001,5003,5005,5007,5009,5011,5013,5015,5017,5019"
@@ -91932,8 +93096,12 @@
       "freq": 450,
       "slaveID": 2
      },
-     "rack01_Internal_resistances": {
+     "rack01_Internal_resistance": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register3801_3819": [
         "TEXT",
         "3801,3803,3805,3807,3809,3811,3813,3815,3817,3819"
@@ -92289,6 +93457,10 @@
      },
      "rack01_Polar_power_line_temperature": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register6201_6219": [
         "TEXT",
         "6201,6203,6205,6207,6209,6211,6213,6215,6217,6219"
@@ -92364,6 +93536,10 @@
      },
      "rack01_TEMPERATURE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register1401_1419": [
         "TEXT",
         "1401,1403,1405,1407,1409,1411,1413,1415,1417,1419"
@@ -92719,6 +93895,10 @@
      },
      "rack01_State_of_Charge_(SOC)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register2601_2619": [
         "TEXT",
         "2601,2603,2605,2607,2609,2611,2613,2615,2617,2619"
@@ -93074,6 +94254,10 @@
      },
      "rack01_VOLTAGE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register201_219": [
         "TEXT",
         "201,203,205,207,209,211,213,215,217,219"
@@ -93429,6 +94613,10 @@
      },
      "rack02_Charge_balance_status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register101_110": [
         "TEXT",
         "101,102,103,104,105,106,107,108,109,110"
@@ -93693,6 +94881,10 @@
      },
      "rack02_Discharge_Equalization_Status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register701_710": [
         "TEXT",
         "701,702,703,704,705,706,707,708,709,710"
@@ -93957,6 +95149,10 @@
      },
      "rack02_State_of_Health_(SOH)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register5001_5019": [
         "TEXT",
         "5001,5003,5005,5007,5009,5011,5013,5015,5017,5019"
@@ -94310,8 +95506,12 @@
       "freq": 450,
       "slaveID": 3
      },
-     "rack02_Internal_resistances": {
+     "rack02_Internal_resistance": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register3801_3819": [
         "TEXT",
         "3801,3803,3805,3807,3809,3811,3813,3815,3817,3819"
@@ -94667,6 +95867,10 @@
      },
      "rack02_Polar_power_line_temperature": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register6201_6219": [
         "TEXT",
         "6201,6203,6205,6207,6209,6211,6213,6215,6217,6219"
@@ -94742,6 +95946,10 @@
      },
      "rack02_TEMPERATURE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register1401_1419": [
         "TEXT",
         "1401,1403,1405,1407,1409,1411,1413,1415,1417,1419"
@@ -95097,6 +96305,10 @@
      },
      "rack02_State_of_Charge_(SOC)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register2601_2619": [
         "TEXT",
         "2601,2603,2605,2607,2609,2611,2613,2615,2617,2619"
@@ -95452,6 +96664,10 @@
      },
      "rack02_VOLTAGE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register201_219": [
         "TEXT",
         "201,203,205,207,209,211,213,215,217,219"
@@ -95807,6 +97023,10 @@
      },
      "rack03_Charge_balance_status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register101_110": [
         "TEXT",
         "101,102,103,104,105,106,107,108,109,110"
@@ -96071,6 +97291,10 @@
      },
      "rack03_Discharge_Equalization_Status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register701_710": [
         "TEXT",
         "701,702,703,704,705,706,707,708,709,710"
@@ -96335,6 +97559,10 @@
      },
      "rack03_State_of_Health_(SOH)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register5001_5019": [
         "TEXT",
         "5001,5003,5005,5007,5009,5011,5013,5015,5017,5019"
@@ -96688,8 +97916,12 @@
       "freq": 450,
       "slaveID": 4
      },
-     "rack03_Internal_resistances": {
+     "rack03_Internal_resistance": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register3801_3819": [
         "TEXT",
         "3801,3803,3805,3807,3809,3811,3813,3815,3817,3819"
@@ -97045,6 +98277,10 @@
      },
      "rack03_Polar_power_line_temperature": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register6201_6219": [
         "TEXT",
         "6201,6203,6205,6207,6209,6211,6213,6215,6217,6219"
@@ -97120,6 +98356,10 @@
      },
      "rack03_TEMPERATURE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register1401_1419": [
         "TEXT",
         "1401,1403,1405,1407,1409,1411,1413,1415,1417,1419"
@@ -97475,6 +98715,10 @@
      },
      "rack03_State_of_Charge_(SOC)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register2601_2619": [
         "TEXT",
         "2601,2603,2605,2607,2609,2611,2613,2615,2617,2619"
@@ -97830,6 +99074,10 @@
      },
      "rack03_VOLTAGE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register201_219": [
         "TEXT",
         "201,203,205,207,209,211,213,215,217,219"
@@ -98185,6 +99433,10 @@
      },
      "rack04_Charge_balance_status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register101_110": [
         "TEXT",
         "101,102,103,104,105,106,107,108,109,110"
@@ -98449,6 +99701,10 @@
      },
      "rack04_Discharge_Equalization_Status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register701_710": [
         "TEXT",
         "701,702,703,704,705,706,707,708,709,710"
@@ -98713,6 +99969,10 @@
      },
      "rack04_State_of_Health_(SOH)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register5001_5019": [
         "TEXT",
         "5001,5003,5005,5007,5009,5011,5013,5015,5017,5019"
@@ -99066,8 +100326,12 @@
       "freq": 450,
       "slaveID": 5
      },
-     "rack04_Internal_resistances": {
+     "rack04_Internal_resistance": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register3801_3819": [
         "TEXT",
         "3801,3803,3805,3807,3809,3811,3813,3815,3817,3819"
@@ -99423,6 +100687,10 @@
      },
      "rack04_Polar_power_line_temperature": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register6201_6219": [
         "TEXT",
         "6201,6203,6205,6207,6209,6211,6213,6215,6217,6219"
@@ -99498,6 +100766,10 @@
      },
      "rack04_TEMPERATURE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register1401_1419": [
         "TEXT",
         "1401,1403,1405,1407,1409,1411,1413,1415,1417,1419"
@@ -99853,6 +101125,10 @@
      },
      "rack04_State_of_Charge_(SOC)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register2601_2619": [
         "TEXT",
         "2601,2603,2605,2607,2609,2611,2613,2615,2617,2619"
@@ -100208,6 +101484,10 @@
      },
      "rack04_VOLTAGE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register201_219": [
         "TEXT",
         "201,203,205,207,209,211,213,215,217,219"
@@ -100565,6 +101845,10 @@
     "BESS11": {
      "overview": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_7": [
         "TEXT",
         "1,2,3,4,5,6,7"
@@ -100576,10 +101860,6 @@
        "register15_20": [
         "TEXT",
         "15,16,17,18,19,20"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ],
        "register51_67": [
         "TEXT",
@@ -100626,6 +101906,10 @@
      "follow_schedule": false,
      "rack01_status": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_8": [
         "TEXT",
         "1,2,3,4,5,6,7,8"
@@ -100637,10 +101921,6 @@
        "register17_23": [
         "TEXT",
         "17,18,19,20,21,22,23"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ],
        "register51_67": [
         "TEXT",
@@ -100684,6 +101964,10 @@
      },
      "rack01_alert": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_9": [
         "TEXT",
         "1,2,3,4,5,6,7,8,9"
@@ -100723,10 +102007,6 @@
        "register82_90": [
         "TEXT",
         "82,83,84,85,86,87,88,89,90"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ]
       },
       "1-90": {
@@ -100744,6 +102024,10 @@
      },
      "rack02_status": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_8": [
         "TEXT",
         "1,2,3,4,5,6,7,8"
@@ -100755,10 +102039,6 @@
        "register17_23": [
         "TEXT",
         "17,18,19,20,21,22,23"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ],
        "register51_67": [
         "TEXT",
@@ -100802,6 +102082,10 @@
      },
      "rack02_alert": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_9": [
         "TEXT",
         "1,2,3,4,5,6,7,8,9"
@@ -100841,10 +102125,6 @@
        "register82_90": [
         "TEXT",
         "82,83,84,85,86,87,88,89,90"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ]
       },
       "1-90": {
@@ -100862,6 +102142,10 @@
      },
      "rack03_status": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_8": [
         "TEXT",
         "1,2,3,4,5,6,7,8"
@@ -100873,10 +102157,6 @@
        "register17_23": [
         "TEXT",
         "17,18,19,20,21,22,23"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ],
        "register51_67": [
         "TEXT",
@@ -100920,6 +102200,10 @@
      },
      "rack03_alert": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_9": [
         "TEXT",
         "1,2,3,4,5,6,7,8,9"
@@ -100959,10 +102243,6 @@
        "register82_90": [
         "TEXT",
         "82,83,84,85,86,87,88,89,90"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ]
       },
       "1-90": {
@@ -100980,6 +102260,10 @@
      },
      "rack04_status": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_8": [
         "TEXT",
         "1,2,3,4,5,6,7,8"
@@ -100991,10 +102275,6 @@
        "register17_23": [
         "TEXT",
         "17,18,19,20,21,22,23"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ],
        "register51_67": [
         "TEXT",
@@ -101038,6 +102318,10 @@
      },
      "rack04_alert": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_9": [
         "TEXT",
         "1,2,3,4,5,6,7,8,9"
@@ -101077,10 +102361,6 @@
        "register82_90": [
         "TEXT",
         "82,83,84,85,86,87,88,89,90"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ]
       },
       "1-90": {
@@ -101107,6 +102387,10 @@
      "follow_schedule": false,
      "rack01_Charge_balance_status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register101_110": [
         "TEXT",
         "101,102,103,104,105,106,107,108,109,110"
@@ -101371,6 +102655,10 @@
      },
      "rack01_Discharge_Equalization_Status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register701_710": [
         "TEXT",
         "701,702,703,704,705,706,707,708,709,710"
@@ -101635,6 +102923,10 @@
      },
      "rack01_State_of_Health_(SOH)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register5001_5019": [
         "TEXT",
         "5001,5003,5005,5007,5009,5011,5013,5015,5017,5019"
@@ -101988,8 +103280,12 @@
       "freq": 450,
       "slaveID": 2
      },
-     "rack01_Internal_resistances": {
+     "rack01_Internal_resistance": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register3801_3819": [
         "TEXT",
         "3801,3803,3805,3807,3809,3811,3813,3815,3817,3819"
@@ -102345,6 +103641,10 @@
      },
      "rack01_Polar_power_line_temperature": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register6201_6219": [
         "TEXT",
         "6201,6203,6205,6207,6209,6211,6213,6215,6217,6219"
@@ -102420,6 +103720,10 @@
      },
      "rack01_TEMPERATURE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register1401_1419": [
         "TEXT",
         "1401,1403,1405,1407,1409,1411,1413,1415,1417,1419"
@@ -102775,6 +104079,10 @@
      },
      "rack01_State_of_Charge_(SOC)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register2601_2619": [
         "TEXT",
         "2601,2603,2605,2607,2609,2611,2613,2615,2617,2619"
@@ -103130,6 +104438,10 @@
      },
      "rack01_VOLTAGE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register201_219": [
         "TEXT",
         "201,203,205,207,209,211,213,215,217,219"
@@ -103485,6 +104797,10 @@
      },
      "rack02_Charge_balance_status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register101_110": [
         "TEXT",
         "101,102,103,104,105,106,107,108,109,110"
@@ -103749,6 +105065,10 @@
      },
      "rack02_Discharge_Equalization_Status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register701_710": [
         "TEXT",
         "701,702,703,704,705,706,707,708,709,710"
@@ -104013,6 +105333,10 @@
      },
      "rack02_State_of_Health_(SOH)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register5001_5019": [
         "TEXT",
         "5001,5003,5005,5007,5009,5011,5013,5015,5017,5019"
@@ -104366,8 +105690,12 @@
       "freq": 450,
       "slaveID": 3
      },
-     "rack02_Internal_resistances": {
+     "rack02_Internal_resistance": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register3801_3819": [
         "TEXT",
         "3801,3803,3805,3807,3809,3811,3813,3815,3817,3819"
@@ -104723,6 +106051,10 @@
      },
      "rack02_Polar_power_line_temperature": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register6201_6219": [
         "TEXT",
         "6201,6203,6205,6207,6209,6211,6213,6215,6217,6219"
@@ -104798,6 +106130,10 @@
      },
      "rack02_TEMPERATURE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register1401_1419": [
         "TEXT",
         "1401,1403,1405,1407,1409,1411,1413,1415,1417,1419"
@@ -105153,6 +106489,10 @@
      },
      "rack02_State_of_Charge_(SOC)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register2601_2619": [
         "TEXT",
         "2601,2603,2605,2607,2609,2611,2613,2615,2617,2619"
@@ -105508,6 +106848,10 @@
      },
      "rack02_VOLTAGE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register201_219": [
         "TEXT",
         "201,203,205,207,209,211,213,215,217,219"
@@ -105863,6 +107207,10 @@
      },
      "rack03_Charge_balance_status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register101_110": [
         "TEXT",
         "101,102,103,104,105,106,107,108,109,110"
@@ -106127,6 +107475,10 @@
      },
      "rack03_Discharge_Equalization_Status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register701_710": [
         "TEXT",
         "701,702,703,704,705,706,707,708,709,710"
@@ -106391,6 +107743,10 @@
      },
      "rack03_State_of_Health_(SOH)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register5001_5019": [
         "TEXT",
         "5001,5003,5005,5007,5009,5011,5013,5015,5017,5019"
@@ -106744,8 +108100,12 @@
       "freq": 450,
       "slaveID": 4
      },
-     "rack03_Internal_resistances": {
+     "rack03_Internal_resistance": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register3801_3819": [
         "TEXT",
         "3801,3803,3805,3807,3809,3811,3813,3815,3817,3819"
@@ -107101,6 +108461,10 @@
      },
      "rack03_Polar_power_line_temperature": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register6201_6219": [
         "TEXT",
         "6201,6203,6205,6207,6209,6211,6213,6215,6217,6219"
@@ -107176,6 +108540,10 @@
      },
      "rack03_TEMPERATURE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register1401_1419": [
         "TEXT",
         "1401,1403,1405,1407,1409,1411,1413,1415,1417,1419"
@@ -107531,6 +108899,10 @@
      },
      "rack03_State_of_Charge_(SOC)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register2601_2619": [
         "TEXT",
         "2601,2603,2605,2607,2609,2611,2613,2615,2617,2619"
@@ -107886,6 +109258,10 @@
      },
      "rack03_VOLTAGE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register201_219": [
         "TEXT",
         "201,203,205,207,209,211,213,215,217,219"
@@ -108241,6 +109617,10 @@
      },
      "rack04_Charge_balance_status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register101_110": [
         "TEXT",
         "101,102,103,104,105,106,107,108,109,110"
@@ -108505,6 +109885,10 @@
      },
      "rack04_Discharge_Equalization_Status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register701_710": [
         "TEXT",
         "701,702,703,704,705,706,707,708,709,710"
@@ -108769,6 +110153,10 @@
      },
      "rack04_State_of_Health_(SOH)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register5001_5019": [
         "TEXT",
         "5001,5003,5005,5007,5009,5011,5013,5015,5017,5019"
@@ -109122,8 +110510,12 @@
       "freq": 450,
       "slaveID": 5
      },
-     "rack04_Internal_resistances": {
+     "rack04_Internal_resistance": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register3801_3819": [
         "TEXT",
         "3801,3803,3805,3807,3809,3811,3813,3815,3817,3819"
@@ -109479,6 +110871,10 @@
      },
      "rack04_Polar_power_line_temperature": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register6201_6219": [
         "TEXT",
         "6201,6203,6205,6207,6209,6211,6213,6215,6217,6219"
@@ -109554,6 +110950,10 @@
      },
      "rack04_TEMPERATURE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register1401_1419": [
         "TEXT",
         "1401,1403,1405,1407,1409,1411,1413,1415,1417,1419"
@@ -109909,6 +111309,10 @@
      },
      "rack04_State_of_Charge_(SOC)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register2601_2619": [
         "TEXT",
         "2601,2603,2605,2607,2609,2611,2613,2615,2617,2619"
@@ -110264,6 +111668,10 @@
      },
      "rack04_VOLTAGE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register201_219": [
         "TEXT",
         "201,203,205,207,209,211,213,215,217,219"
@@ -110621,6 +112029,10 @@
     "BESS12": {
      "overview": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_7": [
         "TEXT",
         "1,2,3,4,5,6,7"
@@ -110632,10 +112044,6 @@
        "register15_20": [
         "TEXT",
         "15,16,17,18,19,20"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ],
        "register51_67": [
         "TEXT",
@@ -110682,6 +112090,10 @@
      "follow_schedule": false,
      "rack01_status": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_8": [
         "TEXT",
         "1,2,3,4,5,6,7,8"
@@ -110693,10 +112105,6 @@
        "register17_23": [
         "TEXT",
         "17,18,19,20,21,22,23"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ],
        "register51_67": [
         "TEXT",
@@ -110740,6 +112148,10 @@
      },
      "rack01_alert": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_9": [
         "TEXT",
         "1,2,3,4,5,6,7,8,9"
@@ -110779,10 +112191,6 @@
        "register82_90": [
         "TEXT",
         "82,83,84,85,86,87,88,89,90"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ]
       },
       "1-90": {
@@ -110800,6 +112208,10 @@
      },
      "rack02_status": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_8": [
         "TEXT",
         "1,2,3,4,5,6,7,8"
@@ -110811,10 +112223,6 @@
        "register17_23": [
         "TEXT",
         "17,18,19,20,21,22,23"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ],
        "register51_67": [
         "TEXT",
@@ -110858,6 +112266,10 @@
      },
      "rack02_alert": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_9": [
         "TEXT",
         "1,2,3,4,5,6,7,8,9"
@@ -110897,10 +112309,6 @@
        "register82_90": [
         "TEXT",
         "82,83,84,85,86,87,88,89,90"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ]
       },
       "1-90": {
@@ -110918,6 +112326,10 @@
      },
      "rack03_status": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_8": [
         "TEXT",
         "1,2,3,4,5,6,7,8"
@@ -110929,10 +112341,6 @@
        "register17_23": [
         "TEXT",
         "17,18,19,20,21,22,23"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ],
        "register51_67": [
         "TEXT",
@@ -110976,6 +112384,10 @@
      },
      "rack03_alert": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_9": [
         "TEXT",
         "1,2,3,4,5,6,7,8,9"
@@ -111015,10 +112427,6 @@
        "register82_90": [
         "TEXT",
         "82,83,84,85,86,87,88,89,90"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ]
       },
       "1-90": {
@@ -111036,6 +112444,10 @@
      },
      "rack04_status": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_8": [
         "TEXT",
         "1,2,3,4,5,6,7,8"
@@ -111047,10 +112459,6 @@
        "register17_23": [
         "TEXT",
         "17,18,19,20,21,22,23"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ],
        "register51_67": [
         "TEXT",
@@ -111094,6 +112502,10 @@
      },
      "rack04_alert": {
       "DBtable": {
+       "EventTime": [
+        "DATETIME",
+        ""
+       ],
        "register1_9": [
         "TEXT",
         "1,2,3,4,5,6,7,8,9"
@@ -111133,10 +112545,6 @@
        "register82_90": [
         "TEXT",
         "82,83,84,85,86,87,88,89,90"
-       ],
-       "EventTime": [
-        "DATETIME",
-        ""
        ]
       },
       "1-90": {
@@ -111163,6 +112571,10 @@
      "follow_schedule": false,
      "rack01_Charge_balance_status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register101_110": [
         "TEXT",
         "101,102,103,104,105,106,107,108,109,110"
@@ -111427,6 +112839,10 @@
      },
      "rack01_Discharge_Equalization_Status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register701_710": [
         "TEXT",
         "701,702,703,704,705,706,707,708,709,710"
@@ -111691,6 +113107,10 @@
      },
      "rack01_State_of_Health_(SOH)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register5001_5019": [
         "TEXT",
         "5001,5003,5005,5007,5009,5011,5013,5015,5017,5019"
@@ -112044,8 +113464,12 @@
       "freq": 450,
       "slaveID": 2
      },
-     "rack01_Internal_resistances": {
+     "rack01_Internal_resistance": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register3801_3819": [
         "TEXT",
         "3801,3803,3805,3807,3809,3811,3813,3815,3817,3819"
@@ -112401,6 +113825,10 @@
      },
      "rack01_Polar_power_line_temperature": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register6201_6219": [
         "TEXT",
         "6201,6203,6205,6207,6209,6211,6213,6215,6217,6219"
@@ -112476,6 +113904,10 @@
      },
      "rack01_TEMPERATURE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register1401_1419": [
         "TEXT",
         "1401,1403,1405,1407,1409,1411,1413,1415,1417,1419"
@@ -112831,6 +114263,10 @@
      },
      "rack01_State_of_Charge_(SOC)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register2601_2619": [
         "TEXT",
         "2601,2603,2605,2607,2609,2611,2613,2615,2617,2619"
@@ -113186,6 +114622,10 @@
      },
      "rack01_VOLTAGE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register201_219": [
         "TEXT",
         "201,203,205,207,209,211,213,215,217,219"
@@ -113541,6 +114981,10 @@
      },
      "rack02_Charge_balance_status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register101_110": [
         "TEXT",
         "101,102,103,104,105,106,107,108,109,110"
@@ -113805,6 +115249,10 @@
      },
      "rack02_Discharge_Equalization_Status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register701_710": [
         "TEXT",
         "701,702,703,704,705,706,707,708,709,710"
@@ -114069,6 +115517,10 @@
      },
      "rack02_State_of_Health_(SOH)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register5001_5019": [
         "TEXT",
         "5001,5003,5005,5007,5009,5011,5013,5015,5017,5019"
@@ -114422,8 +115874,12 @@
       "freq": 450,
       "slaveID": 3
      },
-     "rack02_Internal_resistances": {
+     "rack02_Internal_resistance": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register3801_3819": [
         "TEXT",
         "3801,3803,3805,3807,3809,3811,3813,3815,3817,3819"
@@ -114779,6 +116235,10 @@
      },
      "rack02_Polar_power_line_temperature": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register6201_6219": [
         "TEXT",
         "6201,6203,6205,6207,6209,6211,6213,6215,6217,6219"
@@ -114854,6 +116314,10 @@
      },
      "rack02_TEMPERATURE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register1401_1419": [
         "TEXT",
         "1401,1403,1405,1407,1409,1411,1413,1415,1417,1419"
@@ -115209,6 +116673,10 @@
      },
      "rack02_State_of_Charge_(SOC)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register2601_2619": [
         "TEXT",
         "2601,2603,2605,2607,2609,2611,2613,2615,2617,2619"
@@ -115564,6 +117032,10 @@
      },
      "rack02_VOLTAGE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register201_219": [
         "TEXT",
         "201,203,205,207,209,211,213,215,217,219"
@@ -115919,6 +117391,10 @@
      },
      "rack03_Charge_balance_status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register101_110": [
         "TEXT",
         "101,102,103,104,105,106,107,108,109,110"
@@ -116183,6 +117659,10 @@
      },
      "rack03_Discharge_Equalization_Status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register701_710": [
         "TEXT",
         "701,702,703,704,705,706,707,708,709,710"
@@ -116447,6 +117927,10 @@
      },
      "rack03_State_of_Health_(SOH)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register5001_5019": [
         "TEXT",
         "5001,5003,5005,5007,5009,5011,5013,5015,5017,5019"
@@ -116800,8 +118284,12 @@
       "freq": 450,
       "slaveID": 4
      },
-     "rack03_Internal_resistances": {
+     "rack03_Internal_resistance": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register3801_3819": [
         "TEXT",
         "3801,3803,3805,3807,3809,3811,3813,3815,3817,3819"
@@ -117157,6 +118645,10 @@
      },
      "rack03_Polar_power_line_temperature": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register6201_6219": [
         "TEXT",
         "6201,6203,6205,6207,6209,6211,6213,6215,6217,6219"
@@ -117232,6 +118724,10 @@
      },
      "rack03_TEMPERATURE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register1401_1419": [
         "TEXT",
         "1401,1403,1405,1407,1409,1411,1413,1415,1417,1419"
@@ -117587,6 +119083,10 @@
      },
      "rack03_State_of_Charge_(SOC)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register2601_2619": [
         "TEXT",
         "2601,2603,2605,2607,2609,2611,2613,2615,2617,2619"
@@ -117942,6 +119442,10 @@
      },
      "rack03_VOLTAGE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register201_219": [
         "TEXT",
         "201,203,205,207,209,211,213,215,217,219"
@@ -118297,6 +119801,10 @@
      },
      "rack04_Charge_balance_status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register101_110": [
         "TEXT",
         "101,102,103,104,105,106,107,108,109,110"
@@ -118561,6 +120069,10 @@
      },
      "rack04_Discharge_Equalization_Status": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register701_710": [
         "TEXT",
         "701,702,703,704,705,706,707,708,709,710"
@@ -118825,6 +120337,10 @@
      },
      "rack04_State_of_Health_(SOH)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register5001_5019": [
         "TEXT",
         "5001,5003,5005,5007,5009,5011,5013,5015,5017,5019"
@@ -119178,8 +120694,12 @@
       "freq": 450,
       "slaveID": 5
      },
-     "rack04_Internal_resistances": {
+     "rack04_Internal_resistance": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register3801_3819": [
         "TEXT",
         "3801,3803,3805,3807,3809,3811,3813,3815,3817,3819"
@@ -119535,6 +121055,10 @@
      },
      "rack04_Polar_power_line_temperature": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register6201_6219": [
         "TEXT",
         "6201,6203,6205,6207,6209,6211,6213,6215,6217,6219"
@@ -119610,6 +121134,10 @@
      },
      "rack04_TEMPERATURE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register1401_1419": [
         "TEXT",
         "1401,1403,1405,1407,1409,1411,1413,1415,1417,1419"
@@ -119965,6 +121493,10 @@
      },
      "rack04_State_of_Charge_(SOC)": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register2601_2619": [
         "TEXT",
         "2601,2603,2605,2607,2609,2611,2613,2615,2617,2619"
@@ -120320,6 +121852,10 @@
      },
      "rack04_VOLTAGE": {
       "DBtable": {
+       "EVentTime": [
+        "DATETIME",
+        ""
+       ],
        "register201_219": [
         "TEXT",
         "201,203,205,207,209,211,213,215,217,219"
