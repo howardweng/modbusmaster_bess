@@ -9,40 +9,32 @@ import json
 from util import error_logger,logtime_logger
 
 class SystemCondition:
-    def __init__(self,service_name: str,server_name: str,host: str,user: str) -> None:
+    def __init__(self,redaunant_name: str,node_name: str = "GTR",loc: str = "dev") -> None:
 
-        self.service_name = service_name
-        self.server_name = server_name
-        self.host = host
-        self.user = user
-        self.is_server_alive :bool = None 
-        self.working_server : str = None
+        self._node_name = node_name
+        self._loc = loc
+        self._server_name = redaunant_name
+
+        self.working_server : str = ''
         self.is_ess_alive : bool = True
- 
+
     def _check_servers_condition(self):
         try:
-            command = "crm status | grep GTR"
+            command = "crm status | grep -E 'Started|Online' "
             out = subprocess.run(command,shell=True,capture_output=True,text=True).stdout.split("\n")
+            servers_online = re.findall(f"{self._node_name}_1_{self._loc}_r1?2?",out[0])
+            current_server = re.findall(f"{self._node_name}_1_{self._loc}_r1?2?",out[1])
+            reader_status = re.findall(f"{self._node_name}_1_{self._loc}_r1?2?",out[2])
+            writter_status = re.findall(f"{self._node_name}_1_{self._loc}_r1?2?",out[3])
 
-            if out :
-                pattern = r"GTR_1_dev_r1?2?"
-                nodes = re.findall(pattern,out[2])
+            self.working_server = current_server[0] if current_server else None
+            self.is_ess_alive = True if self._server_name in reader_status and self._server_name in writter_status else False
 
-                self.working_server = re.findall(pattern,out[3])[0]
-                self.is_server_alive = True if len(nodes) ==2 else False
         except Exception as e:
             error_logger.error(f"Error from run: {e}")
-    def _check_ess_condition(self):
-        ess_servies = []
-        command = f"systemctl is-active {self.service_name}"
-        with paramiko.SSHClient() as ssh_shell:
-            ssh_shell.set_missing_host_key_policy(paramiko.AutoAddPolicy())
-            ssh_shell.connect(hostname=self.host, username=self.user)
-            strdin,stdout,stderr = ssh_shell.exec_command(command)
-            state = stdout.read().decode().strip()
-        self.is_ess_alive = True if state == 'active' else False
+        
     def get_system_condition(self):
-        return self.is_server_alive,self.is_ess_alive,self.working_server
+        return self.is_ess_alive,self.working_server
 
 class CheckConfig:
     def __init__(self,config_path: str):
