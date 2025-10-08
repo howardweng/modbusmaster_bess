@@ -88,8 +88,8 @@ class Ess:
         
         else:
             while True:
-                is_server_alive,is_ess_alive,working_server = self.system_status.get_system_condition()
-                logtime_logger.info(f"is_server_alive:{is_server_alive},is_ess_alive:{is_ess_alive},working_server:{working_server}")
+                is_ess_alive,working_server = self.system_status.get_system_condition()
+                logtime_logger.info(f"is_ess_alive:{is_ess_alive},working_server:{working_server}")
                 
                 if working_server == self._env_info["server_name"] :
                    
