@@ -1,9 +1,10 @@
 
 {
     "quote_code":"1",
+    "node" :"GTR",
+    "loc" :"solar",
     "push_server_IP":"MTR_1_dev",
-    "redundant_name":"GTR_1_dev_r2",
+    "Nodes":["BTR_solar_r1","BTR_solar_r2"],
     "log_path":"/var/log/solar/ModbusMaster_Bess",
-    "service_name":"master_bess.service",
-    "server_name":"GTR_1_dev_r1"
+    "service_name":"master_bess.service"
 }

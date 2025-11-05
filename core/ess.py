@@ -12,11 +12,12 @@ from util import error_logger,logtime_logger
 
 
 class Ess:
-    def __init__(self,deviceConfig: str,envConfig: str,alertsConfig: str,system_status,ipc_num:int = 2):
+    def __init__(self,deviceConfig: str,envConfig: str,alertsConfig: str,system_status,current_server:str,ipc_num:int = 2):
         self._deviceConfig = deviceConfig
         self._envConfig = envConfig
         self._alertsConfig = alertsConfig
         self._check_config = CheckConfig(self._deviceConfig)
+        self._current_server= current_server
         self._devices_info = None
         self._env_info = None
         self._load_config()
@@ -43,7 +44,7 @@ class Ess:
             group["data"] = { **redis_details}
             for slave in group_key:
                 group['data'][slave] = self._devices_info[slave]
-            if "r"+str(i+1) in self._env_info["server_name"]:
+            if "r"+str(i+1) in self._current_server:
                 group['need_observation'] = True
                 group['intial_condition'] = True
             else:
@@ -72,7 +73,7 @@ class Ess:
         time.sleep(4)
         logtime_logger.info("sucessfullly assigned jobs ")
         if len(parents.keys()) == 2:
-            other_process_controller,current_process_controller = (parents["process_2"],parents["process_1"]) if "r1" in self._env_info["server_name"] else (parents["process_1"],parents["process_2"])
+            other_process_controller,current_process_controller = (parents["process_2"],parents["process_1"]) if "r1" in self._current_server else (parents["process_1"],parents["process_2"])
             while True:
                 is_ess_alive,working_server = self.system_status.get_system_condition()
                 logtime_logger.info(f"is_ess_alive:{is_ess_alive},working_server:{working_server}")
@@ -80,7 +81,7 @@ class Ess:
                 current_process_controller.send([True,self.need_cell_info])
                 if not is_ess_alive:
                     #ToDo implent alert 
-                    # print("other device data")
+                    print("other device data")
                     other_process_controller.send([True,self.need_cell_info])
                 else:
                     other_process_controller.send([False,self.need_cell_info])
@@ -91,7 +92,7 @@ class Ess:
                 is_ess_alive,working_server = self.system_status.get_system_condition()
                 logtime_logger.info(f"is_ess_alive:{is_ess_alive},working_server:{working_server}")
                 
-                if working_server == self._env_info["server_name"] :
+                if working_server == sels._current_server :
                    
                     parents["process_1"].send([True,True])
                 else:

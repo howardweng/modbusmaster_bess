@@ -1,5 +1,5 @@
 {
-    "Redishost": "192.168.10.44",
+    "Redishost": ["btrsolarr1","btrsolarr2"],
     "Redisport": "6379",
     "Redispw": "Trone-9939",
     "BESS1": {
