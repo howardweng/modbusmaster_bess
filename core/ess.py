@@ -25,15 +25,19 @@ class Ess:
         self.ipc_num = ipc_num
         self.r = None
         self.need_cell_info = False
+            
+            
     def _load_config(self):
         with open(self._deviceConfig) as f:
             self._devices_info = json.load(f)
+            if self._current_server != "BTR_solar_r1":
+                self._devices_info["Redishost"] = self._devices_info["Redishost"].reverse()
         with open(self._envConfig) as f:
             self._env_info = json.load(f)
     def get_groups(self):
         groups = []
         redis_details = {}
-        redis_details["Redishost"] = self._devices_info.pop("Redishost")
+        redis_details["Redishost"] = self._devices_info.pop("Redishost")[0]
         redis_details["Redisport"] = self._devices_info.pop("Redisport")
         redis_details["Redispw"] = self._devices_info.pop("Redispw")
         slave_list = list(self._devices_info.keys())
@@ -51,6 +55,7 @@ class Ess:
                 group['need_observation'] = True
                 group['intial_condition'] = False    
             groups.append(group)
+            print(group["data"].keys(),group["need_observation"],group["intial_condition"])
         return groups
     def job(self):
         processes = {}
@@ -92,7 +97,7 @@ class Ess:
                 is_ess_alive,working_server = self.system_status.get_system_condition()
                 logtime_logger.info(f"is_ess_alive:{is_ess_alive},working_server:{working_server}")
                 
-                if working_server == sels._current_server :
+                if working_server == self._current_server :
                    
                     parents["process_1"].send([True,True])
                 else:
@@ -102,7 +107,8 @@ class Ess:
         if self._check_config.check():
             logtime_logger.info("Config check passed")
             try:
-                redisPool = redis.ConnectionPool(host=self._devices_info["Redishost"], port=self._devices_info["Redisport"], password=self._devices_info["Redispw"], db=0, decode_responses=True)
+                print(self._devices_info["Redishost"])
+                redisPool = redis.ConnectionPool(host=self._devices_info["Redishost"][0], port=self._devices_info["Redisport"], password=self._devices_info["Redispw"], db=0, decode_responses=True)
                 self.r = redis.Redis(connection_pool=redisPool)
                 logtime_logger.info("Redis connection established")
             except Exception as e:

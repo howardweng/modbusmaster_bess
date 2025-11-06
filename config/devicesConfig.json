@@ -1,7 +1,7 @@
 {
     "Redishost": ["btrsolarr1","btrsolarr2"],
     "Redisport": "6379",
-    "Redispw": "Trone-9939",
+    "Redispw": "Solar@2025",
     "BESS1": {
      "overview": {
       "DBtable": {

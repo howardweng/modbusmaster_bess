@@ -20,13 +20,14 @@ class SystemCondition:
 
     def _check_servers_condition(self):
         try:
+            print("check servers condition")
             command = "crm status | grep -E 'Started|Online' "
+
             out = subprocess.run(command,shell=True,capture_output=True,text=True).stdout.split("\n")
             servers_online = re.findall(f"{self._node_name}_{self._loc}_r1?2?",out[0])
             current_server = re.findall(f"{self._node_name}_{self._loc}_r1?2?",out[1])
             reader_status = re.findall(f"{self._node_name}_{self._loc}_r1?2?",out[2])
             writter_status = re.findall(f"{self._node_name}_{self._loc}_r1?2?",out[3])
-
             self.working_server = current_server[0] if current_server else None
             print(reader_status,writter_status,self._server_name)
             self.is_ess_alive = True if self._server_name in reader_status and self._server_name in writter_status else False
