@@ -1,0 +1,30 @@
+{
+    "quote_code":"",
+    "node":"BTR",
+    "loc":"solar",
+    "service_name":"redsitomysql.service",
+    "Nodes":["BTR_solar_r1","BTR_solar_r2"],
+    "max_quote_capacity":1100,
+    "log_path":"/var/log/solar/RedisToMySQL",
+    "sbspm_alert_value": 95,
+    "calendar_db":{
+        "host":"gtwdev",
+        "user":"root",
+        "password":"Trone-9939",
+        "database":"new_push"
+    },
+    "redis_details":{
+        "BTR_solar_r1":{
+            "host":"btrsolarr1",
+            "port":6379,
+            "password":"Solar@2025",
+            "db":0
+        },
+        "BTR_solar_r2":{
+            "host":"btrsolarr2",
+            "port":6379,
+            "password":"Solar@2025",
+            "db":0
+        }
+    }
+}
